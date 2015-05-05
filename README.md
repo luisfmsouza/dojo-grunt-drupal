@@ -1,3 +1,4 @@
 # dojo-grunt-drupal
 
-Contributors
+# Contributors
+[Rafael Rhormens](https://github.com/rhormens) 
