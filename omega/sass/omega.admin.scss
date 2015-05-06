@@ -1,15 +1,18 @@
 @import "compass";
 
+body.hack {
+  background: black!important;
+}
 
 .fieldset-description {
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
 }
 
 /* Extension Settings */
 .omega-extension-settings {
   border: 1px solid #ccc;
   padding: 2.5em 0 0 0;
-  margin: 1em 0;
+    margin: 1em 0;
 
   legend {
     display: block;

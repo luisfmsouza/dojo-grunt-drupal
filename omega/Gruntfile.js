@@ -1,137 +1,62 @@
 'use strict';
 
-module.exports = function (grunt) {
-
+module.exports = function(grunt) {
   grunt.initConfig({
-    sass: {                              // Task
-      dist: {                            // Target
-        options: {                       // Target options
-          style: 'expanded'
-        },
+    pkg: grunt.file.readJSON('package.json'),
 
-        files: [{
-          'styleDojo.css' : ['css/layouts/divine/{,**/}*.{css}']
-        }]
-      }
-    },
-    watch: {
-      options: {
-        livereload: true
+    path : {
+      source : {
+        sass : "sass"
       },
-      sass: {
-        files: ['sass/{,**/}*.{scss,sass}'],
-        tasks: ['compass:dev'],
-        options: {
-          livereload: false
-        }
-      },
-      registry: {
-        files: ['*.info', '{,**}/*.{php,inc}'],
-        tasks: ['shell'],
-        options: {
-          livereload: false
-        }
-      },
-      images: {
-        files: ['images/**']
-      },
-      css: {
-        files: ['css/{,**/}*.css']
-      },
-      js: {
-        files: ['js/{,**/}*.js', '!js/{,**/}*.min.js'],
-        tasks: ['jshint', 'uglify:dev']
-      }
-    },
-
-    shell: {
-      all: {
-        command: 'drush cache-clear theme-registry'
+      dest : {
+        sass : "css"
       }
     },
 
     compass: {
       options: {
-        config: 'config.rb',
-        bundleExec: true,
-        force: true
+        outputStyle: 'expanded'
       },
       dev: {
         options: {
-          environment: 'development'
+          sassDir: '<%= path.source.sass %>',
+          cssDir: '<%= path.dest.sass %>'
         }
       },
-      dist: {
+      prod: {
         options: {
-          environment: 'production'
+          environment: 'production',
+          outputStyle: 'compressed',
+          sassDir: '<%= path.source.sass %>',
+          cssDir: '<%= path.dest.sass %>'
         }
       }
     },
 
-    jshint: {
+    scsslint: {
+      allFiles: [
+        '<%= path.source.sass %>**/*.scss',
+      ],
       options: {
-        jshintrc: '.jshintrc'
+        bundleExec: true,
+        config: '.scss-lint.yml',
+        reporterOutput: 'scss-lint-report.xml',
+        colorizeOutput: true
       },
-      all: ['js/{,**/}*.js', '!js/{,**/}*.min.js']
     },
 
-    uglify: {
-      dev: {
-        options: {
-          mangle: false,
-          compress: false,
-          beautify: true
-        },
-        files: [{
-          expand: true,
-          flatten: true,
-          cwd: 'js',
-          dest: 'js',
-          src: ['**/*.js', '!**/*.min.js'],
-          rename: function(dest, src) {
-            var folder = src.substring(0, src.lastIndexOf('/'));
-            var filename = src.substring(src.lastIndexOf('/'), src.length);
-            filename = filename.substring(0, filename.lastIndexOf('.'));
-            return dest + '/' + folder + filename + '.min.js';
-          }
-        }]
-      },
-      dist: {
-        options: {
-          mangle: true,
-          compress: true
-        },
-        files: [{
-          expand: true,
-          flatten: true,
-          cwd: 'js',
-          dest: 'js',
-          src: ['**/*.js', '!**/*.min.js'],
-          rename: function(dest, src) {
-            var folder = src.substring(0, src.lastIndexOf('/'));
-            var filename = src.substring(src.lastIndexOf('/'), src.length);
-            filename = filename.substring(0, filename.lastIndexOf('.'));
-            return dest + '/' + folder + filename + '.min.js';
-          }
-        }]
+    watch: {
+      css: {
+        files: '<%= path.source.sass %>**/*.scss',
+        tasks: ['compass:dev']
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-shell');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-scss-lint');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('build', [
-    'uglify:dist',
-    'compass:dist',
-    'jshint'
-  ]);
-  grunt.registerTask('convertcss', [
-    'sass:dist'
-  ]);
-
-};
+  grunt.registerTask('default',['watch']);
+  grunt.registerTask('buildProd',['compass:prod']);
+}
