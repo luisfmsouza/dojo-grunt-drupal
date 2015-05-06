@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 
     scsslint: {
       allFiles: [
-        '<%= path.source.sass %>**/*.scss',
+        '<%= path.source.sass %>/**/*.scss',
       ],
       options: {
         bundleExec: true,
