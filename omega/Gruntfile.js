@@ -19,6 +19,9 @@ module.exports = function(grunt) {
       },
       dev: {
         options: {
+          environment: 'development',
+          noLineComments: true,
+          outputStyle:"expanded",
           sassDir: '<%= path.source.sass %>',
           cssDir: '<%= path.dest.sass %>'
         }
@@ -33,30 +36,63 @@ module.exports = function(grunt) {
       }
     },
 
+    clean: ["css/*"],
+
     scsslint: {
       allFiles: [
         '<%= path.source.sass %>/**/*.scss',
       ],
       options: {
         bundleExec: true,
+        colorizeOutput: true,
         config: '.scss-lint.yml',
-        reporterOutput: 'scss-lint-report.xml',
-        colorizeOutput: true
+        reporterOutput: 'scss-lint-report.xml'
       },
+    },
+    
+    spglue: {
+      dev: {
+        options: {
+            project: true,
+            scss: true,
+            img: 'images/generated'
+        },
+        files: {
+            'sass/abstractions': 'images/sprites'
+        }
+      }
+    },
+
+    stripCssComments: {
+      dist: {
+        files: {
+          'css/tedx.hacks.css': 'css/tedx.hacks.css',
+          'css/tedx.no-query.css': 'css/tedx.no-query.css',
+          'css/tedx.normalize.css': 'css/tedx.normalize.css',
+          'css/tedx.styles.css': 'css/tedx.styles.css'
+        }
+      }
     },
 
     watch: {
       css: {
-        files: '<%= path.source.sass %>**/*.scss',
+        files: '<%= path.source.sass %>/**/*.scss',
         tasks: ['compass:dev']
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-scss-lint');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-strip-css-comments');
+  //grunt.loadNpmTasks('grunt-scss-lint');
+  //grunt.loadNpmTasks('grunt-sprite-glue');
 
   grunt.registerTask('default',['watch']);
   grunt.registerTask('buildProd',['compass:prod']);
+  grunt.registerTask('default', ['stripCssComments']);
+  //grunt.registerTask('default', ['scsslint']);
+  //grunt.registerTask('default', ['spglue:dev']);
+
 }
