@@ -43,10 +43,14 @@ module.exports = function(grunt) {
         '<%= path.source.sass %>/**/*.scss',
       ],
       options: {
-        bundleExec: true,
+        bundleExec: false,
+        config: 'node_modules/grunt-scss-lint/.scss-lint.yml',
+        colouriseOutput: true,
         colorizeOutput: true,
-        config: '.scss-lint.yml',
-        reporterOutput: 'scss-lint-report.xml'
+        compact: false,
+        force: true,
+        maxBuffer: 300 * 1024,
+        reporterOutput: 'node_modules/grunt-scss-lint/scss-lint-report.xml'
       },
     },
     
@@ -86,13 +90,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-strip-css-comments');
-  //grunt.loadNpmTasks('grunt-scss-lint');
+  grunt.loadNpmTasks('grunt-scss-lint');
   //grunt.loadNpmTasks('grunt-sprite-glue');
 
   grunt.registerTask('default',['watch']);
   grunt.registerTask('buildProd',['compass:prod']);
   grunt.registerTask('default', ['stripCssComments']);
-  //grunt.registerTask('default', ['scsslint']);
+  grunt.registerTask('default', ['scsslint']);
   //grunt.registerTask('default', ['spglue:dev']);
 
 }
