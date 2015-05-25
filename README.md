@@ -7,5 +7,5 @@
 * [grunt-scss-lint](https://github.com/ahmednuaman/grunt-scss-lint)
 
 # Contributors
-[Rafael Rhormens](https://github.com/rhormens)
-[Danielle Soldera](https://github.com/dsoldera)
+* [Rafael Rhormens](https://github.com/rhormens)
+* [Danielle Soldera](https://github.com/dsoldera)
