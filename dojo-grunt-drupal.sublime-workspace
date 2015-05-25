@@ -1,0 +1,1437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sus",
+				"substr"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"scro",
+				"scrollToTop"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"_device",
+				"_deviceCurrent"
+			],
+			[
+				"_dev",
+				"_deviceOld"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"modal",
+				"modalName"
+			],
+			[
+				"get",
+				"getHeaderHeight"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"_load",
+				"_loadProductContent"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"c",
+				"callback"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"image",
+				"imageDescription"
+			],
+			[
+				"reference",
+				"referenceNumber"
+			],
+			[
+				"jscs",
+				"jscs.cmd"
+			],
+			[
+				"fuc",
+				"functinoclick"
+			],
+			[
+				"moda",
+				"modalController"
+			],
+			[
+				"funcao",
+				"funcaoDois"
+			],
+			[
+				"Brow",
+				"browserSync"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"cur",
+				"currentTime"
+			],
+			[
+				"curren",
+				"currentLensName"
+			],
+			[
+				"Model",
+				"ModelGalleryToggle"
+			],
+			[
+				"step",
+				"step3"
+			],
+			[
+				"compare",
+				"compareOn"
+			],
+			[
+				"mo",
+				"modelIndex"
+			],
+			[
+				"curre",
+				"currentModelIndex"
+			],
+			[
+				"curr",
+				"currentColorIndex"
+			],
+			[
+				"color",
+				"colorIndex"
+			],
+			[
+				"bg",
+				"bg-teaser-text.png	w:2 h:228"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"st",
+				"stopPropagation"
+			],
+			[
+				"colors",
+				"colorsIndex"
+			],
+			[
+				"lens",
+				"lensIndex"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"ste",
+				"stepModelSelect"
+			],
+			[
+				"close",
+				"closeOverlay"
+			],
+			[
+				"over",
+				"overlay_opened"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"element",
+				"elementChildren"
+			],
+			[
+				"elem",
+				"elementChildren"
+			],
+			[
+				"el",
+				"elmWidth"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"a",
+				"arrow"
+			],
+			[
+				"nav",
+				"navElement"
+			],
+			[
+				"current",
+				"currentIndex"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wa",
+				"wasChangedDevice"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"ifra",
+				"iframeCrossDomain"
+			],
+			[
+				"send",
+				"sendMessageToParent"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"ove",
+				"overlayMain"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"car",
+				"cardLinks"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"s",
+				"switch"
+			],
+			[
+				"pri",
+				"printing"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"ima",
+				"imageHeight"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"hide",
+				"hideOverlayMenu"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"is",
+				"isTablet"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"card",
+				"cardVisible"
+			],
+			[
+				"even",
+				"eventFunctionOn"
+			],
+			[
+				"event",
+				"eventFunctionOn"
+			],
+			[
+				"eleme",
+				"elementOff"
+			],
+			[
+				"tra",
+				"trackEvents"
+			],
+			[
+				"Mod",
+				"ModelGallery"
+			],
+			[
+				"validate",
+				"validateForm"
+			],
+			[
+				"logo",
+				"logoLink"
+			],
+			[
+				"sor",
+				"sortJsonByKey"
+			],
+			[
+				"fiel",
+				"fieldPostalCode"
+			],
+			[
+				"fil",
+				"field"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"for",
+				"form_validate.js"
+			],
+			[
+				"lis",
+				"listState"
+			],
+			[
+				"doc",
+				"doctorByState"
+			],
+			[
+				"state",
+				"stateList"
+			],
+			[
+				"doct",
+				"doctorListSelected"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"html",
+				"html5.js"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"url",
+				"urlLastTabOther"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"insert",
+				"InsertElement"
+			],
+			[
+				"vide",
+				"videoPlayerProperties"
+			],
+			[
+				"radio",
+				"radioTypeUrl"
+			],
+			[
+				"img",
+				"imgPath"
+			],
+			[
+				"sele",
+				"selectCmbGallery"
+			],
+			[
+				"load",
+				"loading"
+			],
+			[
+				"Edit",
+				"EditFormView"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"button",
+				"button-remove.png	w:22 h:45"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jscs",
+				"JSCS Formatter: Format this file"
+			],
+			[
+				"enable pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"prefs",
+				"Preferences: Settings - Default"
+			],
+			[
+				"javas",
+				"Format: Javascript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Format: Javascript"
+			],
+			[
+				"autopre",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"autore",
+				"Autoprefix CSS"
+			],
+			[
+				"html pre",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"convert case",
+				"Convert Case: Title Case"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"decode",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"decod",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 417.0,
+		"history":
+		[
+			"SublimeLinter",
+			"prefs",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/layouts",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/modules",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/sass"
+	],
+	"file_history":
+	[
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/package.json",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/Gruntfile.js",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/scss-lint-report.xml",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/sass/omega.admin.scss",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/omega.admin.css",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/.scss-lint.yml",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_mobile.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/components/_modal.scss",
+		"/C/wamp/www/janssenmd/sites/all/modules/extlink/extlink.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/janssenmd.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.modal.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.modalController.js",
+		"/C/wamp/www/janssenmd/sites/all/modules/field_group/multipage/multipage.js",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/jscripts/general_functions.js",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/jscripts/hcp_form.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/pages/_hcpform.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/pages/_toolsform.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/media-queries.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/css/style.css",
+		"/C/wamp/www/janssenmd/sites/all/modules/jnj_remember_me/scripts/remember_me.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/base/_structure.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/bootstrap/_modals.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-product.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_tabletPortrait.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_desktop.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/pages/_product.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jquery1.11.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/underscore-min.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/variables/_colors.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_tabletLandscape.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.modal.js.bak",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.modalHeader.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_tablet.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_mobile.scss.bak",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/pages/_remember-me.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/bootstrap/_forms.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/janssenmd.info",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/bootstrap/_breadcrumbs.scss",
+		"/C/wamp/www/iscroll/demos/event-passthrough/index.html",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.tooltip.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.tooltipController.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/variables/_typography.scss",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-table.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/tasks/browserSync.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/components/_product-list.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/svgeezy.min.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/respond.min.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/pinchzoom.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/onmediaquery.min.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/modernizr-2.7.0.min.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/device.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/browser_detect.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-return-to-home.tpl.php",
+		"/C/wamp/www/janssenmd/sites/default/settings.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/system/ta_home_list_products.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-ae-pqc.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/Gruntfile.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/.npmrc",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/package.json",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-exitlink.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-reference.tpl.php",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/.jscsrc",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/.jscsrc",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-images.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/abstractions/_mixin.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/pages/_home.scss",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/inc/modals.inc",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/config.rb",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/Gemfile",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/Guardfile",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-ajax-with-header.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/system/hcp_form.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/inc/helper_functions.inc",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/learninglab.module",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/inc/settings.inc",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/JSCS-Formatter/JSCS-Formatter.sublime-settings",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/JSCS-Formatter.sublime-settings",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/janssenmd.sublime-project",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/project-janssenmd.sublime-project",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/style.scss",
+		"/C/Users/lfelipe/AppData/Roaming/npm/node_modules/jscs/bin/.jscsrc",
+		"/C/Users/lfelipe/AppData/Roaming/npm/node_modules/jscs/jscs-browser.js",
+		"/C/Users/lfelipe/AppData/Roaming/npm/node_modules/jscs/package.json",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/inc/hcp_form.inc",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/inc/ajax_menu_callback.inc",
+		"/D/www/acuvue_migration/sites/all/themes/omega/omega/Gruntfile.js",
+		"/C/behat/composer.json",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/C/wamp/www/vertical-center-align-master/style.css",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/bootstrap/_variables.scss",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-product.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-loader.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/template.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jquery.fs.shifter.js",
+		"/C/wamp/www/janssenmd/sites/all/modules/learninglab/jscripts/hecor_tools.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-ajax-with-header-footer.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/tools/views-view-table--tools--page.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/tools/tools_thank_you_button.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/system/header_ae_pqc_links.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/janssenmd.sublime-workspace",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/system/page--front.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/system/page.tpl.php",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/css/flexslider.css",
+		"/D/Sites/SuperGadgetRelease3/trunk/java/ccv-super-gadget-parent/ccv-super-gadget-web/content/web_resources/general/js/1.MODULES_Map.js",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/D/Sites/SuperGadgetRelease3/trunk/java/ccv-super-gadget-parent/ccv-super-gadget-web/content/web_resources/general/js/2.MODULES_Menu.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/janssenmd.module.modal.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/janssenmd.module.modalController.js",
+		"/C/wamp/www/vertical-center-align-master/_resources/tasks/browserSync.js",
+		"/C/wamp/www/vertical-center-align-master/_resources/package.json",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/janssenmd.modal.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/janssenmd.modalController.js",
+		"/D/Sites/SuperGadgetRelease3/trunk/java/ccv-super-gadget-parent/ccv-super-gadget-web/content/web_resources/general/js/MainApplication.js",
+		"/D/Sites/NATAL_CovermixNatal2013/trunk/java/ccv-covermix-natal2013-parent/ccv-covermix-natal2013-web/src/main/web_resources/general/js/App.js",
+		"/D/Sites/NATAL_CovermixNatal2013/trunk/java/ccv-covermix-natal2013-parent/ccv-covermix-natal2013-web/src/main/web_resources/general/js/AppFacebook.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/modal.js",
+		"/C/Users/lfelipe/AppData/Roaming/npm/node_modules/jscs/bin/jscs",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/lfelipe/Downloads/_resources/tasks/_task_browserSync.js",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/JSLint.sublime-settings",
+		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\lfelipe\\Documents\\GitHub\\dojo-grunt-drupal\\omega\\css",
+			"C:\\Users\\lfelipe\\Documents\\GitHub\\dojo-grunt-drupal\\omega\\sass",
+			"C:\\Users\\lfelipe\\Documents\\GitHub\\dojo-grunt-drupal\\omega\\css",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\css",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass\\breakpoints\\devices",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\scripts",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates\\modals",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates\\modals",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates\\modals",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass\\components",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass\\bootstrap",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\modules",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\modules",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\modules\\learninglab",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\modules",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\modules\\learninglab",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\modules\\learninglag",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass\\bootstrap",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass\\bootstrap",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates\\system",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates\\modals",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\templates",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\script",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\Users\\lfelipe\\Downloads\\js-beautify-master",
+			"D:\\www\\acuvueprofessional-d7\\sites\\lucy",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define",
+			"D:\\www\\acuvueprofessional-d7\\sites\\lucy",
+			"D:\\www\\acuvueprofessional-d7\\sites\\lucy\\themes",
+			"C:\\Program Files (x86)\\DevDesktop\\apache",
+			"D:\\www\\acuvueprofessional-d7\\sites\\all\\modules\\visioncare",
+			"D:\\www\\acuvueprofessional-d7\\sites",
+			"C:\\Program Files (x86)\\DevDesktop\\apache",
+			"C:\\Program Files (x86)\\DevDesktop\\apache\\conf",
+			"D:\\www\\acuvueprofessional-d7",
+			"C:\\Program Files (x86)\\DevDesktop",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass\\bootstrap\\mixins",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes",
+			"C:\\wamp\\www\\janssenmd\\sites",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\css",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites\\all",
+			"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\sass",
+			"C:\\wamp\\www\\janssenmd\\sites",
+			"C:\\Program Files (x86)\\DevDesktop\\apache\\conf",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\src\\css",
+			"C:\\wamp\\www\\acuvueprofessional-d7\\sites\\all\\modules",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\js",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\css",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\js",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\css",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\js",
+			"D:\\www\\acuvue_migration\\sites\\default\\files\\define\\css",
+			"C:\\Program Files (x86)\\DevDesktop\\",
+			"C:\\Program Files (x86)\\DevDesktop\\apache\\conf"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body.hack",
+			"overlay-product-prescribing-information",
+			"JMD",
+			".overlay-product.hover",
+			"btn-confirm-product-list",
+			"#modalEnlarge",
+			"popupClickHandler",
+			"blank",
+			"applyClassAndSpan",
+			"ext",
+			"ExtLink",
+			"reloadExtLink",
+			"extlink",
+			"popupClickHandler",
+			"extlink",
+			"http://www.sublimetext.com/3",
+			"extlink",
+			"addClass(\"ext",
+			"addClass('ext",
+			"block-to-hide",
+			".ext",
+			"ext",
+			".ext",
+			"ext",
+			"scrollToTop",
+			"exit-product-area",
+			".cancel",
+			"#edit-jnj-remember-me",
+			"#edit-hcp-confirm",
+			".form-type-checkbox",
+			"#edit-hcp-do-not-contact-me",
+			".form-type-checkbox",
+			"#edit-hcp-confirm",
+			".form-type-checkbox",
+			".modal-footer .btn",
+			".page-tools-thank-you",
+			"pinch-zoom",
+			"console.log",
+			".modal-dialog",
+			"fixed !important",
+			"overlay-product",
+			"title-overlay-ta",
+			"product-link",
+			"_loadProductContent",
+			"modalProduct",
+			"overlay-product-name",
+			"#modalEnlarge",
+			".node-type-sharepoint-pages",
+			"modalShow",
+			"rememberme",
+			"modalExtLink",
+			"loadExt",
+			"fb.",
+			"underscore-min.map",
+			"underscore.min.map",
+			"scrollToTop",
+			"reference",
+			"load",
+			"mod.scrollToTop();",
+			"_loadReferenceContent",
+			"scrollTo",
+			"scr",
+			"scrollToTop",
+			"$color-light-gray-2",
+			"#pi-navigation-back-to-top",
+			".reference-region",
+			".reference",
+			"Show the modal calling the plugin",
+			"mod.modalShow",
+			"modalExtLink",
+			"caption",
+			"modal",
+			"exit-product-area",
+			".modal-enlarge-content",
+			"_loadExternalContent",
+			"Accordion(",
+			"Accordion",
+			".hcp-form",
+			".modal.hcp-form",
+			".form-item-remember-me",
+			".form-type-checkbox ",
+			"#hcp-form",
+			".form-item-name",
+			".form-item-last-name",
+			":after",
+			"label:after",
+			".remember-me-checkboxes",
+			"$width-tablet-landscape",
+			"label",
+			"$width-tablet-landscape",
+			"hcp",
+			"#edit-hcp-confirm",
+			"#jnj_remember_me_question_wrapper",
+			".remember-me-checkboxes",
+			".form-item",
+			".form-item-name",
+			"* Required Fields",
+			"Required",
+			".form-group",
+			".container-wrapper",
+			"::",
+			"container-wrapper",
+			".breadcrumb",
+			"modal-body",
+			"content:\"*\";",
+			"content: \"*\";",
+			"label:before",
+			"scrollTop",
+			"isVisible",
+			"modalHide",
+			" .breadcrumb .container-wrapper",
+			".header",
+			"prevent",
+			"$('#btn-return-home-page')",
+			"exit-product-area",
+			"removeUser",
+			"confirmUserRemove",
+			"removeUser",
+			"confirmUserRemove",
+			"user-remove-button",
+			".product_disclaimer",
+			"#hcp_mobile_subtitle",
+			"product_disclaimer",
+			"#hcp_mobile_subtitle",
+			".product_disclaimer",
+			"@include font-size($font-size-small-mob);",
+			"product_disclaimer",
+			"hcp_mobile_subtitle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"pageTarget.find('",
+			"pageTarget",
+			"\\'",
+			"'",
+			"_loadReferenceContent",
+			"hasReference",
+			"imageDescription",
+			"modalBody",
+			"'",
+			"mod",
+			"D:\\www\\",
+			"\"grunt\": \">=0.4.0\",\n    \"grunt-contrib-uglify\": \"~0.5.0\"",
+			".lens-filter .lens-toggle-image img",
+			"MD",
+			"DEFINE<sup>&reg;</sup>",
+			"-compare-fr",
+			"../images/",
+			"ModelGalleryInit(",
+			"step2",
+			"step3",
+			"step1",
+			"step8",
+			"step7",
+			"onClickSeeShineModels",
+			"see-details-link",
+			"lens-status",
+			"rgba(48,38,130,0.1)",
+			"rgba(255,255,255,0.1)",
+			"azulrgba(255,255,255,0.1)",
+			"azul",
+			"branco",
+			"  ",
+			" div#accordion",
+			"behaviorMenuMobile",
+			"behaviorCard",
+			"  ",
+			"overlayMain",
+			"jQuery('#overlays')",
+			"):\n",
+			" ;-",
+			"div#edit-first-purchase-yes-wrapper",
+			"div#edit-first-purchase-no-wrapper",
+			"  ",
+			"isPrinting",
+			"resizeHomeVideo",
+			"<sup>&reg;</sup>",
+			"Joannie",
+			"Hélène",
+			"Tara",
+			"Corinne",
+			"Lise",
+			"Amélie",
+			"Christine",
+			"Lentille sur l’œil",
+			"Aucune lentille sur l’œil",
+			"Sélectionner un pays",
+			"",
+			"porte les lentilles ",
+			"> sur ses yeux noisette.",
+			"  ",
+			"maxHeight",
+			"minimumHeight",
+			" : ",
+			"\",",
+			"  ",
+			"DEFINE™",
+			"().\n",
+			"if (",
+			"",
+			"BUTTON_SUBMIT",
+			"ELM_LOADER",
+			"BUTTON_SUBMIT",
+			"FIELD_EMAIL",
+			"FIELD_POSTAL_CODE",
+			" Please enter a valid postal code",
+			" Please enter a email address.",
+			"fieldPostalCode",
+			"",
+			"select-list-state",
+			"buildItemDoctor",
+			"itemDoctor",
+			"optionsState",
+			"getListDoctorByState",
+			"getListState",
+			"listState",
+			"listComplete",
+			"",
+			"/sites/default/files/define",
+			"",
+			"  ",
+			"\\1",
+			"  ",
+			"",
+			" ul ",
+			"",
+			"edit-checkbox-walmart-wrapper",
+			"browseServer",
+			"browseServerOther",
+			"browseServerImage",
+			"valTxtUrl",
+			"loadSelection",
+			"this.getInputElement().setAttribute('id', this.id);\n							this.domId = this.id;",
+			"// this.getInputElement().setAttribute('id', this.id);",
+			"    ",
+			"currentFormViewImgPreview",
+			"selectCmbFormView",
+			"a.edit-form-view",
+			"currentFormViewId",
+			"ckeditor",
+			"selectGallery",
+			" form ",
+			" fieldset",
+			" div",
+			" form",
+			"attributes :",
+			"",
+			"\\1\\2",
+			"\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 332.0
+	},
+	"output.exec":
+	{
+		"height": 203.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "dojo-grunt-drupal.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mobile.scs",
+				"sass\\breakpoints\\devices\\_mobile.scss"
+			],
+			[
+				"remember",
+				"sass\\pages\\_remember-me.scss"
+			],
+			[
+				"lear",
+				"C:\\wamp\\www\\janssenmd\\sites\\all\\modules\\learninglab\\learninglab.module"
+			],
+			[
+				"acuvue",
+				"js\\acuvue_theme.js"
+			],
+			[
+				"mobile",
+				"all\\themes\\acuvue_theme\\css\\mobile.css"
+			],
+			[
+				"tablet",
+				"all\\themes\\acuvue_theme\\css\\tablet-portrait.css"
+			],
+			[
+				"mobilemyacu",
+				"all\\themes\\acuvue_theme\\css\\mobile-myacuvue.css"
+			],
+			[
+				"mobile.css",
+				"all\\themes\\acuvue_theme\\css\\mobile.css"
+			],
+			[
+				"survey",
+				"all\\modules\\acuvue\\js\\survey.js"
+			],
+			[
+				"survey.js",
+				"all\\modules\\acuvue\\js\\survey.js"
+			],
+			[
+				"flash_checker",
+				"all\\modules\\acuvue\\js\\flash_checker.js"
+			],
+			[
+				"general",
+				"all\\themes\\acuvue_theme\\css\\general-fr_ca.css"
+			],
+			[
+				"jquery-acuvuebazaarvoice.js",
+				"all\\modules\\acuvue\\inc\\bazaar_voice\\jquery-acuvueBazaarvoice.js"
+			],
+			[
+				"mobile-product",
+				"all\\themes\\acuvue_theme\\css\\mobile-products.css"
+			],
+			[
+				"genera.css",
+				"all\\themes\\acuvue_theme\\css\\general.css"
+			],
+			[
+				"mobile-why",
+				"all\\themes\\acuvue_theme\\css\\mobile-whyacuvue.css"
+			],
+			[
+				"overlay",
+				"all\\modules\\acuvue\\js\\site-overlay.js"
+			],
+			[
+				"jquery-play",
+				"all\\modules\\acuvue\\js\\jquery-youtubePlaylist.js"
+			],
+			[
+				"jquery-",
+				"all\\modules\\acuvue\\js\\jquery-acuvuePlaylist.js"
+			],
+			[
+				"general.css",
+				"all\\themes\\acuvue_theme\\css\\general.css"
+			],
+			[
+				"acuvue.js",
+				"all\\modules\\acuvue\\js\\acuvue.js"
+			],
+			[
+				"5.",
+				"all\\themes\\acuvue_theme\\js\\5.AcuvueApp.iframeCrossDomain.js"
+			],
+			[
+				"acuminder",
+				"all\\modules\\acuvue\\js\\acuminder.js"
+			],
+			[
+				"want",
+				"all\\modules\\acuvue\\js\\wantcontacts.js"
+			],
+			[
+				"mobile.",
+				"all\\themes\\acuvue_theme\\css\\mobile.css"
+			],
+			[
+				"myacvue",
+				"all\\modules\\acuvue\\js\\myacuvue.js"
+			],
+			[
+				"site-overlay",
+				"all\\modules\\acuvue\\js\\site-overlay.js"
+			],
+			[
+				"1.acuvueapp.device.js",
+				"all\\themes\\acuvue_theme\\js\\1.AcuvueApp.device.js"
+			],
+			[
+				"site",
+				"all\\modules\\acuvue\\js\\site-overlay.js"
+			],
+			[
+				"genera",
+				"all\\modules\\acuvue\\inc\\general.inc"
+			],
+			[
+				"iframe",
+				"all\\modules\\acuvue\\js\\iframeResizer.min.js"
+			],
+			[
+				"device",
+				"all\\themes\\acuvue_theme\\js\\1.AcuvueApp.device.js"
+			],
+			[
+				"iframer",
+				"all\\modules\\acuvue\\js\\iframeResizer.contentWindow.min.js"
+			],
+			[
+				"iframe_",
+				"all\\modules\\acuvue\\js\\iframe_skeleton.js"
+			],
+			[
+				"replace",
+				"all\\modules\\acuvue\\js\\replace-form-elements.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
