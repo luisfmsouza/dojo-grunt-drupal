@@ -1,15 +1,22 @@
 'use strict';
 
 module.exports = function(grunt) {
+
+  // Load time plugin
+  require('time-grunt')(grunt);
+
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
     path : {
       source : {
-        sass : "sass"
+        sass : "sass",
+        js : "js_source"
       },
       dest : {
-        sass : "css"
+        sass : "css",
+        js : "js"
       }
     },
 
@@ -44,13 +51,12 @@ module.exports = function(grunt) {
       ],
       options: {
         bundleExec: false,
-        config: 'node_modules/grunt-scss-lint/.scss-lint.yml',
+        config: 'scss-lint.yml',
         colouriseOutput: true,
         colorizeOutput: true,
         compact: false,
         force: true,
-        maxBuffer: 300 * 1024,
-        reporterOutput: 'node_modules/grunt-scss-lint/scss-lint-report.xml'
+        maxBuffer: 1000 * 1024
       },
     },
     
@@ -78,10 +84,52 @@ module.exports = function(grunt) {
       }
     },
 
+    // Task: Ugligy
+    // ---------------------------------
+    uglify: {
+      dev: {  
+        options: {
+          mangle: false, 
+          beautify: true, 
+          compress : false,
+          sourceMap: false // Fix the error when set to true
+        }, 
+        files: {
+          '<%= path.dest.js %>/generated.min.js': ['<%= path.source.js %>/*.js']
+        }
+      },
+
+      prod: { 
+        options: {
+          mangle: true,
+          compress : true,
+          sourceMap: false
+        }, 
+        files: {
+          '<%= path.dest.js %>/generated.min.js': ['<%= path.source.js %>/*.js']
+        }
+      }
+    },
+
+    jshint: {
+      /*options: {
+        jshintrc: '.jshintrc'
+      },*/
+      all: ['<%= path.source.js %>/*.js']
+    },
+
     watch: {
       css: {
         files: '<%= path.source.sass %>/**/*.scss',
         tasks: ['compass:dev']
+      },
+      css_lint: {
+        files: '<%= path.source.sass %>/**/*.scss',
+        tasks: [ 'scsslint', 'compass:dev']
+      },
+      js: {
+        files: '<%= path.source.js %>/**/*.js',
+        tasks: [ 'uglify:dev', 'jshint']
       }
     }
   });
@@ -91,12 +139,19 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-strip-css-comments');
   grunt.loadNpmTasks('grunt-scss-lint');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   //grunt.loadNpmTasks('grunt-sprite-glue');
 
-  grunt.registerTask('default',['watch']);
-  grunt.registerTask('buildProd',['compass:prod']);
+  // Watch css and lint
+  grunt.registerTask('watch_css', ['watch:css_lint']);
+
+  // Watch js and lint
+  grunt.registerTask('watch_js', ['watch:js']);
+
+  grunt.registerTask('css_dev', ['compass:dev']);
+  grunt.registerTask('css_prod', ['compass:prod']);
   grunt.registerTask('default', ['stripCssComments']);
-  grunt.registerTask('default', ['scsslint']);
   //grunt.registerTask('default', ['spglue:dev']);
 
 }

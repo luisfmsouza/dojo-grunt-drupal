@@ -2,6 +2,7 @@
 
   'use strict';
 
+
   /**
    * Container for the resizeend timeout.
    */

@@ -1,9 +1,21 @@
 {
-  "name": "tedx",
+  "name": "dojo-grunt-drupal",
   "version": "1.0.0",
+  "description": "Gruntfile generated during the Dojo",
+  "keywords": [
+    "grunt",
+    "package",
+    "json",
+    "gruntfile"
+  ],
+  "bugs": {
+    "url": "https://github.com/luisfmsouza/dojo-grunt-drupal/issues"
+  },
+  "homepage": "https://github.com/luisfmsouza/dojo-grunt-drupal",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "~0.1.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-compass": "^1.0.3",
     "grunt-contrib-jshint": "~0.1.1",
@@ -12,9 +24,10 @@
     "grunt-scss-lint": "^0.3.6",
     "grunt-shell": "~0.3.1",
     "grunt-sprite-glue": "^0.2.0",
-    "grunt-strip-css-comments": "^1.1.0"
+    "grunt-strip-css-comments": "^1.1.0",
+    "time-grunt": "~1.0.0"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.10.0"
   }
 }
