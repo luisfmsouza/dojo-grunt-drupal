@@ -1,0 +1,2409 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'load-grunt-tasks' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn package.json dojo-grunt-drupal@1.0.0 No repository field.
+5 verbose readDependencies npm-shrinkwrap.json is overriding dependencies
+6 info shrinkwrap file "/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/npm-shrinkwrap.json"
+7 verbose readDependencies returned deps { 'grunt-contrib-compass': 'https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-0.2.0.tgz',
+7 verbose readDependencies returned deps   grunt: 'https://registry.npmjs.org/grunt/-/grunt-0.4.2.tgz',
+7 verbose readDependencies returned deps   'grunt-contrib-uglify': 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz',
+7 verbose readDependencies returned deps   'grunt-contrib-watch': 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.4.4.tgz',
+7 verbose readDependencies returned deps   'grunt-contrib-jshint': 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.1.1.tgz' }
+8 silly cache add args [ 'load-grunt-tasks', null ]
+9 verbose cache add spec load-grunt-tasks
+10 silly cache add parsed spec { raw: 'load-grunt-tasks',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'load-grunt-tasks',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed load-grunt-tasks@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'load-grunt-tasks', range: '*', hasData: false }
+15 silly mapToRegistry name load-grunt-tasks
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+19 verbose addNameRange registry:https://registry.npmjs.org/load-grunt-tasks not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/load-grunt-tasks
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 9:37:26 PM
+23 verbose request id aeea9cafe5653bd7
+24 verbose etag "8I3JYEASM6P7F3DGK1X00NZC2"
+25 http request GET https://registry.npmjs.org/load-grunt-tasks
+26 http 200 https://registry.npmjs.org/load-grunt-tasks
+27 silly get cb [ 200,
+27 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly get     etag: '"4UG4Y1ORWIYAQ2XW0XT5TTQWM"',
+27 silly get     'content-type': 'application/json',
+27 silly get     'cache-control': 'max-age=60',
+27 silly get     'content-length': '23088',
+27 silly get     'accept-ranges': 'bytes',
+27 silly get     date: 'Tue, 02 Jun 2015 00:37:28 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     age: '23',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-jfk1030-JFK',
+27 silly get     'x-cache': 'HIT',
+27 silly get     'x-cache-hits': '1',
+27 silly get     'x-timer': 'S1433205448.851258,VS0,VE0',
+27 silly get     vary: 'Accept' } ]
+28 verbose get saving load-grunt-tasks to /Users/luisfmsouza/.npm/registry.npmjs.org/load-grunt-tasks/.cache.json
+29 silly addNameRange number 2 { name: 'load-grunt-tasks', range: '*', hasData: true }
+30 silly addNameRange versions [ 'load-grunt-tasks',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '3.1.0',
+30 silly addNameRange     '3.2.0' ] ]
+31 verbose addNamed load-grunt-tasks@3.2.0
+32 silly addNamed semver.valid 3.2.0
+33 silly addNamed semver.validRange 3.2.0
+34 silly mapToRegistry name load-grunt-tasks
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+38 verbose addRemoteTarball https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz not in flight; adding
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz',
+39 verbose addRemoteTarball   '25fe7e414ba0645a752bb06f52491b422332036f' ]
+40 info retry fetch attempt 1 at 9:37:29 PM
+41 info attempt registry request try #1 at 9:37:29 PM
+42 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz
+43 http fetch 200 https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz
+44 silly fetchAndShaCheck shasum 25fe7e414ba0645a752bb06f52491b422332036f
+45 verbose addTmpTarball /tmp/npm-2039-4f0e4241/registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz not in flight; adding
+46 verbose addTmpTarball already have metadata; skipping unpack for load-grunt-tasks@3.2.0
+47 silly cache afterAdd load-grunt-tasks@3.2.0
+48 verbose afterAdd /Users/luisfmsouza/.npm/load-grunt-tasks/3.2.0/package/package.json not in flight; writing
+49 verbose afterAdd /Users/luisfmsouza/.npm/load-grunt-tasks/3.2.0/package/package.json written
+50 silly install resolved [ { name: 'load-grunt-tasks',
+50 silly install resolved     version: '3.2.0',
+50 silly install resolved     description: 'Load multiple grunt tasks using globbing patterns',
+50 silly install resolved     keywords:
+50 silly install resolved      [ 'grunt',
+50 silly install resolved        'load',
+50 silly install resolved        'require',
+50 silly install resolved        'tasks',
+50 silly install resolved        'glob',
+50 silly install resolved        'pattern',
+50 silly install resolved        'match',
+50 silly install resolved        'matchdep',
+50 silly install resolved        'dependencies' ],
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     author:
+50 silly install resolved      { name: 'Sindre Sorhus',
+50 silly install resolved        email: 'sindresorhus@gmail.com',
+50 silly install resolved        url: 'sindresorhus.com' },
+50 silly install resolved     files: [ 'index.js' ],
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'https://github.com/sindresorhus/load-grunt-tasks' },
+50 silly install resolved     scripts: { test: 'grunt' },
+50 silly install resolved     dependencies: { 'findup-sync': '^0.2.1', multimatch: '^2.0.0' },
+50 silly install resolved     devDependencies:
+50 silly install resolved      { grunt: '^0.4.2',
+50 silly install resolved        'grunt-cli': '^0.1.13',
+50 silly install resolved        'grunt-svgmin': '^2.0.0' },
+50 silly install resolved     engines: { node: '>=0.10.0' },
+50 silly install resolved     gitHead: '8c44223c5231d6baffeef262ee3bb24e7d8f580c',
+50 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/load-grunt-tasks/issues' },
+50 silly install resolved     homepage: 'https://github.com/sindresorhus/load-grunt-tasks',
+50 silly install resolved     _id: 'load-grunt-tasks@3.2.0',
+50 silly install resolved     _shasum: '25fe7e414ba0645a752bb06f52491b422332036f',
+50 silly install resolved     _from: 'load-grunt-tasks@*',
+50 silly install resolved     _npmVersion: '2.9.1',
+50 silly install resolved     _nodeVersion: '0.12.3',
+50 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '25fe7e414ba0645a752bb06f52491b422332036f',
+50 silly install resolved        tarball: 'http://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.2.0.tgz' } ]
+51 info install load-grunt-tasks@3.2.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega
+52 info installOne load-grunt-tasks@3.2.0
+53 verbose installOne of load-grunt-tasks to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega not in flight; installing
+54 verbose lock using /Users/luisfmsouza/.npm/_locks/load-grunt-tasks-a06d78ba6215f3f6.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+55 silly install write writing load-grunt-tasks 3.2.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+56 silly cache addNamed cb load-grunt-tasks@3.2.0
+57 verbose unbuild node_modules/load-grunt-tasks
+58 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+59 verbose tar unpack /Users/luisfmsouza/.npm/load-grunt-tasks/3.2.0/package.tgz
+60 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+61 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry index.js
+65 silly gunzTarPerm extractEntry license
+66 silly gunzTarPerm extractEntry readme.md
+67 info preinstall load-grunt-tasks@3.2.0
+68 silly prepareForInstallMany adding findup-sync@^0.2.1 from load-grunt-tasks dependencies
+69 silly prepareForInstallMany adding multimatch@^2.0.0 from load-grunt-tasks dependencies
+70 silly cache add args [ 'findup-sync@^0.2.1', null ]
+71 verbose cache add spec findup-sync@^0.2.1
+72 silly cache add parsed spec { raw: 'findup-sync@^0.2.1',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'findup-sync',
+72 silly cache add   rawSpec: '^0.2.1',
+72 silly cache add   spec: '>=0.2.1 <0.3.0',
+72 silly cache add   type: 'range' }
+73 verbose addNamed findup-sync@>=0.2.1 <0.3.0
+74 silly addNamed semver.valid null
+75 silly addNamed semver.validRange >=0.2.1 <0.3.0
+76 silly addNameRange { name: 'findup-sync', range: '>=0.2.1 <0.3.0', hasData: false }
+77 silly mapToRegistry name findup-sync
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/findup-sync
+81 verbose addNameRange registry:https://registry.npmjs.org/findup-sync not in flight; fetching
+82 silly cache add args [ 'multimatch@^2.0.0', null ]
+83 verbose cache add spec multimatch@^2.0.0
+84 silly cache add parsed spec { raw: 'multimatch@^2.0.0',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'multimatch',
+84 silly cache add   rawSpec: '^2.0.0',
+84 silly cache add   spec: '>=2.0.0 <3.0.0',
+84 silly cache add   type: 'range' }
+85 verbose addNamed multimatch@>=2.0.0 <3.0.0
+86 silly addNamed semver.valid null
+87 silly addNamed semver.validRange >=2.0.0 <3.0.0
+88 silly addNameRange { name: 'multimatch', range: '>=2.0.0 <3.0.0', hasData: false }
+89 silly mapToRegistry name multimatch
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/multimatch
+93 verbose addNameRange registry:https://registry.npmjs.org/multimatch not in flight; fetching
+94 verbose request uri https://registry.npmjs.org/findup-sync
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 9:37:31 PM
+97 verbose etag "CT2PJF8E88RPQNWEIB1UFL8EJ"
+98 http request GET https://registry.npmjs.org/findup-sync
+99 verbose request uri https://registry.npmjs.org/multimatch
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 9:37:31 PM
+102 verbose etag "CG3O63X3GIX67QWA9ABWEFH58"
+103 http request GET https://registry.npmjs.org/multimatch
+104 http 304 https://registry.npmjs.org/multimatch
+105 silly get cb [ 304,
+105 silly get   { date: 'Tue, 02 Jun 2015 00:37:35 GMT',
+105 silly get     via: '1.1 varnish',
+105 silly get     'cache-control': 'max-age=60',
+105 silly get     etag: '"CG3O63X3GIX67QWA9ABWEFH58"',
+105 silly get     age: '29',
+105 silly get     connection: 'keep-alive',
+105 silly get     'x-served-by': 'cache-jfk1028-JFK',
+105 silly get     'x-cache': 'HIT',
+105 silly get     'x-cache-hits': '2',
+105 silly get     'x-timer': 'S1433205455.011366,VS0,VE0',
+105 silly get     vary: 'Accept' } ]
+106 verbose etag https://registry.npmjs.org/multimatch from cache
+107 verbose get saving multimatch to /Users/luisfmsouza/.npm/registry.npmjs.org/multimatch/.cache.json
+108 silly addNameRange number 2 { name: 'multimatch', range: '>=2.0.0 <3.0.0', hasData: true }
+109 silly addNameRange versions [ 'multimatch',
+109 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.0', '1.0.0', '1.0.1', '2.0.0' ] ]
+110 verbose addNamed multimatch@2.0.0
+111 silly addNamed semver.valid 2.0.0
+112 silly addNamed semver.validRange 2.0.0
+113 silly cache afterAdd multimatch@2.0.0
+114 verbose afterAdd /Users/luisfmsouza/.npm/multimatch/2.0.0/package/package.json not in flight; writing
+115 verbose afterAdd /Users/luisfmsouza/.npm/multimatch/2.0.0/package/package.json written
+116 http 304 https://registry.npmjs.org/findup-sync
+117 silly get cb [ 304,
+117 silly get   { date: 'Tue, 02 Jun 2015 00:37:35 GMT',
+117 silly get     via: '1.1 varnish',
+117 silly get     'cache-control': 'max-age=60',
+117 silly get     etag: '"CT2PJF8E88RPQNWEIB1UFL8EJ"',
+117 silly get     age: '2',
+117 silly get     connection: 'keep-alive',
+117 silly get     'x-served-by': 'cache-jfk1031-JFK',
+117 silly get     'x-cache': 'HIT',
+117 silly get     'x-cache-hits': '1',
+117 silly get     'x-timer': 'S1433205455.063955,VS0,VE0',
+117 silly get     vary: 'Accept' } ]
+118 verbose etag https://registry.npmjs.org/findup-sync from cache
+119 verbose get saving findup-sync to /Users/luisfmsouza/.npm/registry.npmjs.org/findup-sync/.cache.json
+120 silly addNameRange number 2 { name: 'findup-sync', range: '>=0.2.1 <0.3.0', hasData: true }
+121 silly addNameRange versions [ 'findup-sync',
+121 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.2.1' ] ]
+122 verbose addNamed findup-sync@0.2.1
+123 silly addNamed semver.valid 0.2.1
+124 silly addNamed semver.validRange 0.2.1
+125 silly cache afterAdd findup-sync@0.2.1
+126 verbose afterAdd /Users/luisfmsouza/.npm/findup-sync/0.2.1/package/package.json not in flight; writing
+127 verbose afterAdd /Users/luisfmsouza/.npm/findup-sync/0.2.1/package/package.json written
+128 silly install resolved [ { name: 'multimatch',
+128 silly install resolved     version: '2.0.0',
+128 silly install resolved     description: 'Extends minimatch.match() with support for multiple patterns',
+128 silly install resolved     license: 'MIT',
+128 silly install resolved     repository:
+128 silly install resolved      { type: 'git',
+128 silly install resolved        url: 'https://github.com/sindresorhus/multimatch' },
+128 silly install resolved     author:
+128 silly install resolved      { name: 'Sindre Sorhus',
+128 silly install resolved        email: 'sindresorhus@gmail.com',
+128 silly install resolved        url: 'http://sindresorhus.com' },
+128 silly install resolved     maintainers: [ [Object] ],
+128 silly install resolved     engines: { node: '>=0.10.0' },
+128 silly install resolved     scripts: { test: 'mocha' },
+128 silly install resolved     files: [ 'index.js' ],
+128 silly install resolved     keywords:
+128 silly install resolved      [ 'minimatch',
+128 silly install resolved        'match',
+128 silly install resolved        'matcher',
+128 silly install resolved        'pattern',
+128 silly install resolved        'patterns',
+128 silly install resolved        'glob',
+128 silly install resolved        'globs',
+128 silly install resolved        'globbing',
+128 silly install resolved        'expand',
+128 silly install resolved        'wildcard',
+128 silly install resolved        'find' ],
+128 silly install resolved     dependencies:
+128 silly install resolved      { 'array-differ': '^1.0.0',
+128 silly install resolved        'array-union': '^1.0.1',
+128 silly install resolved        minimatch: '^2.0.1' },
+128 silly install resolved     devDependencies: { chai: '^1.9.1', mocha: '*' },
+128 silly install resolved     gitHead: '2bae7db797d8d69a1dec909c156c11c27b2357fa',
+128 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/multimatch/issues' },
+128 silly install resolved     homepage: 'https://github.com/sindresorhus/multimatch',
+128 silly install resolved     _id: 'multimatch@2.0.0',
+128 silly install resolved     _shasum: 'c5ada425357b744ba54842ebdce1c8f0be542b6f',
+128 silly install resolved     _from: 'multimatch@>=2.0.0 <3.0.0',
+128 silly install resolved     _npmVersion: '2.1.5',
+128 silly install resolved     _nodeVersion: '0.10.32',
+128 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+128 silly install resolved     dist:
+128 silly install resolved      { shasum: 'c5ada425357b744ba54842ebdce1c8f0be542b6f',
+128 silly install resolved        tarball: 'http://registry.npmjs.org/multimatch/-/multimatch-2.0.0.tgz' },
+128 silly install resolved     directories: {},
+128 silly install resolved     _resolved: 'https://registry.npmjs.org/multimatch/-/multimatch-2.0.0.tgz',
+128 silly install resolved     readme: 'ERROR: No README data found!' },
+128 silly install resolved   { name: 'findup-sync',
+128 silly install resolved     description: 'Find the first file matching a given pattern in the current directory or the nearest ancestor directory.',
+128 silly install resolved     version: '0.2.1',
+128 silly install resolved     homepage: 'https://github.com/cowboy/node-findup-sync',
+128 silly install resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+128 silly install resolved     repository:
+128 silly install resolved      { type: 'git',
+128 silly install resolved        url: 'git://github.com/cowboy/node-findup-sync.git' },
+128 silly install resolved     bugs: { url: 'https://github.com/cowboy/node-findup-sync/issues' },
+128 silly install resolved     licenses: [ [Object] ],
+128 silly install resolved     main: 'lib/findup-sync',
+128 silly install resolved     engines: { node: '>= 0.6.0' },
+128 silly install resolved     scripts: { test: 'grunt nodeunit' },
+128 silly install resolved     dependencies: { glob: '~4.3.0' },
+128 silly install resolved     devDependencies:
+128 silly install resolved      { grunt: '~0.4.4',
+128 silly install resolved        'grunt-contrib-jshint': '~0.9.2',
+128 silly install resolved        'grunt-contrib-nodeunit': '~0.3.3' },
+128 silly install resolved     keywords: [ 'find', 'glob', 'file' ],
+128 silly install resolved     gitHead: 'c392a8a921d4d2655b4fe17e3d1a2f4ced14f858',
+128 silly install resolved     _id: 'findup-sync@0.2.1',
+128 silly install resolved     _shasum: 'e0a90a450075c49466ee513732057514b81e878c',
+128 silly install resolved     _from: 'findup-sync@>=0.2.1 <0.3.0',
+128 silly install resolved     _npmVersion: '2.0.0',
+128 silly install resolved     _npmUser: { name: 'tkellen', email: 'tyler@sleekcode.net' },
+128 silly install resolved     maintainers: [ [Object], [Object] ],
+128 silly install resolved     dist:
+128 silly install resolved      { shasum: 'e0a90a450075c49466ee513732057514b81e878c',
+128 silly install resolved        tarball: 'http://registry.npmjs.org/findup-sync/-/findup-sync-0.2.1.tgz' },
+128 silly install resolved     directories: {},
+128 silly install resolved     _resolved: 'https://registry.npmjs.org/findup-sync/-/findup-sync-0.2.1.tgz',
+128 silly install resolved     readme: 'ERROR: No README data found!' } ]
+129 info install multimatch@2.0.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+130 info install findup-sync@0.2.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+131 info installOne multimatch@2.0.0
+132 verbose installOne of multimatch to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks not in flight; installing
+133 info installOne findup-sync@0.2.1
+134 verbose installOne of findup-sync to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks not in flight; installing
+135 verbose lock using /Users/luisfmsouza/.npm/_locks/multimatch-e71952cf127f917e.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+136 silly install write writing multimatch 2.0.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+137 silly cache addNamed cb multimatch@2.0.0
+138 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch
+139 verbose lock using /Users/luisfmsouza/.npm/_locks/findup-sync-78e9b04a822f061f.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+140 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+141 silly install write writing findup-sync 0.2.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+142 silly cache addNamed cb findup-sync@0.2.1
+143 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync
+144 verbose tar unpack /Users/luisfmsouza/.npm/multimatch/2.0.0/package.tgz
+145 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+146 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+149 verbose tar unpack /Users/luisfmsouza/.npm/findup-sync/0.2.1/package.tgz
+150 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+151 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry index.js
+155 silly gunzTarPerm extractEntry readme.md
+156 silly gunzTarPerm extractEntry package.json
+157 silly gunzTarPerm extractEntry .npmignore
+158 silly gunzTarPerm extractEntry README.md
+159 silly gunzTarPerm extractEntry LICENSE-MIT
+160 silly gunzTarPerm extractEntry lib/findup-sync.js
+161 info preinstall multimatch@2.0.0
+162 silly prepareForInstallMany adding array-differ@^1.0.0 from multimatch dependencies
+163 silly prepareForInstallMany adding array-union@^1.0.1 from multimatch dependencies
+164 silly prepareForInstallMany adding minimatch@^2.0.1 from multimatch dependencies
+165 silly cache add args [ 'array-differ@^1.0.0', null ]
+166 verbose cache add spec array-differ@^1.0.0
+167 silly cache add args [ 'array-union@^1.0.1', null ]
+168 verbose cache add spec array-union@^1.0.1
+169 silly cache add parsed spec { raw: 'array-differ@^1.0.0',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'array-differ',
+169 silly cache add   rawSpec: '^1.0.0',
+169 silly cache add   spec: '>=1.0.0 <2.0.0',
+169 silly cache add   type: 'range' }
+170 verbose addNamed array-differ@>=1.0.0 <2.0.0
+171 silly addNamed semver.valid null
+172 silly addNamed semver.validRange >=1.0.0 <2.0.0
+173 silly addNameRange { name: 'array-differ', range: '>=1.0.0 <2.0.0', hasData: false }
+174 silly mapToRegistry name array-differ
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry uri https://registry.npmjs.org/array-differ
+178 verbose addNameRange registry:https://registry.npmjs.org/array-differ not in flight; fetching
+179 silly cache add parsed spec { raw: 'array-union@^1.0.1',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'array-union',
+179 silly cache add   rawSpec: '^1.0.1',
+179 silly cache add   spec: '>=1.0.1 <2.0.0',
+179 silly cache add   type: 'range' }
+180 verbose addNamed array-union@>=1.0.1 <2.0.0
+181 silly addNamed semver.valid null
+182 silly addNamed semver.validRange >=1.0.1 <2.0.0
+183 silly addNameRange { name: 'array-union', range: '>=1.0.1 <2.0.0', hasData: false }
+184 silly mapToRegistry name array-union
+185 silly mapToRegistry using default registry
+186 silly mapToRegistry registry https://registry.npmjs.org/
+187 silly mapToRegistry uri https://registry.npmjs.org/array-union
+188 verbose addNameRange registry:https://registry.npmjs.org/array-union not in flight; fetching
+189 silly cache add args [ 'minimatch@^2.0.1', null ]
+190 verbose cache add spec minimatch@^2.0.1
+191 silly cache add parsed spec { raw: 'minimatch@^2.0.1',
+191 silly cache add   scope: null,
+191 silly cache add   name: 'minimatch',
+191 silly cache add   rawSpec: '^2.0.1',
+191 silly cache add   spec: '>=2.0.1 <3.0.0',
+191 silly cache add   type: 'range' }
+192 verbose addNamed minimatch@>=2.0.1 <3.0.0
+193 silly addNamed semver.valid null
+194 silly addNamed semver.validRange >=2.0.1 <3.0.0
+195 silly addNameRange { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: false }
+196 silly mapToRegistry name minimatch
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+200 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+201 verbose request uri https://registry.npmjs.org/array-differ
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 9:37:35 PM
+204 verbose etag "CRIHKMBXNOZ5V6977RYWJQ8HW"
+205 http request GET https://registry.npmjs.org/array-differ
+206 verbose request uri https://registry.npmjs.org/array-union
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 9:37:35 PM
+209 verbose etag "9MEGTYZ9JVG7CILOBLZQPR6IL"
+210 http request GET https://registry.npmjs.org/array-union
+211 verbose request uri https://registry.npmjs.org/minimatch
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 9:37:35 PM
+214 verbose etag "AH31MK4JMKC8MKID8NDI058Y0"
+215 http request GET https://registry.npmjs.org/minimatch
+216 info preinstall findup-sync@0.2.1
+217 silly prepareForInstallMany adding glob@~4.3.0 from findup-sync dependencies
+218 silly cache add args [ 'glob@~4.3.0', null ]
+219 verbose cache add spec glob@~4.3.0
+220 silly cache add parsed spec { raw: 'glob@~4.3.0',
+220 silly cache add   scope: null,
+220 silly cache add   name: 'glob',
+220 silly cache add   rawSpec: '~4.3.0',
+220 silly cache add   spec: '>=4.3.0 <4.4.0',
+220 silly cache add   type: 'range' }
+221 verbose addNamed glob@>=4.3.0 <4.4.0
+222 silly addNamed semver.valid null
+223 silly addNamed semver.validRange >=4.3.0 <4.4.0
+224 silly addNameRange { name: 'glob', range: '>=4.3.0 <4.4.0', hasData: false }
+225 silly mapToRegistry name glob
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/glob
+229 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+230 verbose request uri https://registry.npmjs.org/glob
+231 verbose request no auth needed
+232 info attempt registry request try #1 at 9:37:35 PM
+233 verbose etag "EU4LIZW480B1C8KHA0PUJYT3Z"
+234 http request GET https://registry.npmjs.org/glob
+235 http 304 https://registry.npmjs.org/array-differ
+236 silly get cb [ 304,
+236 silly get   { date: 'Tue, 02 Jun 2015 00:37:38 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     'cache-control': 'max-age=60',
+236 silly get     etag: '"CRIHKMBXNOZ5V6977RYWJQ8HW"',
+236 silly get     age: '5',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-jfk1024-JFK',
+236 silly get     'x-cache': 'HIT',
+236 silly get     'x-cache-hits': '1',
+236 silly get     'x-timer': 'S1433205458.998185,VS0,VE0',
+236 silly get     vary: 'Accept' } ]
+237 verbose etag https://registry.npmjs.org/array-differ from cache
+238 verbose get saving array-differ to /Users/luisfmsouza/.npm/registry.npmjs.org/array-differ/.cache.json
+239 silly addNameRange number 2 { name: 'array-differ', range: '>=1.0.0 <2.0.0', hasData: true }
+240 silly addNameRange versions [ 'array-differ', [ '0.1.0', '1.0.0' ] ]
+241 verbose addNamed array-differ@1.0.0
+242 silly addNamed semver.valid 1.0.0
+243 silly addNamed semver.validRange 1.0.0
+244 silly cache afterAdd array-differ@1.0.0
+245 verbose afterAdd /Users/luisfmsouza/.npm/array-differ/1.0.0/package/package.json not in flight; writing
+246 verbose afterAdd /Users/luisfmsouza/.npm/array-differ/1.0.0/package/package.json written
+247 http 304 https://registry.npmjs.org/array-union
+248 silly get cb [ 304,
+248 silly get   { date: 'Tue, 02 Jun 2015 00:37:48 GMT',
+248 silly get     via: '1.1 varnish',
+248 silly get     'cache-control': 'max-age=60',
+248 silly get     etag: '"9MEGTYZ9JVG7CILOBLZQPR6IL"',
+248 silly get     age: '4',
+248 silly get     connection: 'keep-alive',
+248 silly get     'x-served-by': 'cache-jfk1026-JFK',
+248 silly get     'x-cache': 'HIT',
+248 silly get     'x-cache-hits': '1',
+248 silly get     'x-timer': 'S1433205468.090198,VS0,VE0',
+248 silly get     vary: 'Accept' } ]
+249 verbose etag https://registry.npmjs.org/array-union from cache
+250 verbose get saving array-union to /Users/luisfmsouza/.npm/registry.npmjs.org/array-union/.cache.json
+251 silly addNameRange number 2 { name: 'array-union', range: '>=1.0.1 <2.0.0', hasData: true }
+252 silly addNameRange versions [ 'array-union', [ '0.1.0', '1.0.0', '1.0.1' ] ]
+253 verbose addNamed array-union@1.0.1
+254 silly addNamed semver.valid 1.0.1
+255 silly addNamed semver.validRange 1.0.1
+256 silly cache afterAdd array-union@1.0.1
+257 verbose afterAdd /Users/luisfmsouza/.npm/array-union/1.0.1/package/package.json not in flight; writing
+258 verbose afterAdd /Users/luisfmsouza/.npm/array-union/1.0.1/package/package.json written
+259 http 304 https://registry.npmjs.org/minimatch
+260 silly get cb [ 304,
+260 silly get   { date: 'Tue, 02 Jun 2015 00:37:48 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     'cache-control': 'max-age=60',
+260 silly get     etag: '"AH31MK4JMKC8MKID8NDI058Y0"',
+260 silly get     age: '18',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-jfk1027-JFK',
+260 silly get     'x-cache': 'HIT',
+260 silly get     'x-cache-hits': '2',
+260 silly get     'x-timer': 'S1433205468.273445,VS0,VE0',
+260 silly get     vary: 'Accept' } ]
+261 verbose etag https://registry.npmjs.org/minimatch from cache
+262 verbose get saving minimatch to /Users/luisfmsouza/.npm/registry.npmjs.org/minimatch/.cache.json
+263 silly addNameRange number 2 { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: true }
+264 silly addNameRange versions [ 'minimatch',
+264 silly addNameRange   [ '0.0.1',
+264 silly addNameRange     '0.0.2',
+264 silly addNameRange     '0.0.4',
+264 silly addNameRange     '0.0.5',
+264 silly addNameRange     '0.1.1',
+264 silly addNameRange     '0.1.2',
+264 silly addNameRange     '0.1.3',
+264 silly addNameRange     '0.1.4',
+264 silly addNameRange     '0.1.5',
+264 silly addNameRange     '0.2.0',
+264 silly addNameRange     '0.2.2',
+264 silly addNameRange     '0.2.3',
+264 silly addNameRange     '0.2.4',
+264 silly addNameRange     '0.2.5',
+264 silly addNameRange     '0.2.6',
+264 silly addNameRange     '0.2.7',
+264 silly addNameRange     '0.2.8',
+264 silly addNameRange     '0.2.9',
+264 silly addNameRange     '0.2.10',
+264 silly addNameRange     '0.2.11',
+264 silly addNameRange     '0.2.12',
+264 silly addNameRange     '0.2.13',
+264 silly addNameRange     '0.2.14',
+264 silly addNameRange     '0.3.0',
+264 silly addNameRange     '0.4.0',
+264 silly addNameRange     '1.0.0',
+264 silly addNameRange     '2.0.0',
+264 silly addNameRange     '2.0.1',
+264 silly addNameRange     '2.0.2',
+264 silly addNameRange     '2.0.3',
+264 silly addNameRange     '2.0.4',
+264 silly addNameRange     '2.0.5',
+264 silly addNameRange     '2.0.6',
+264 silly addNameRange     '2.0.7',
+264 silly addNameRange     '2.0.8' ] ]
+265 verbose addNamed minimatch@2.0.8
+266 silly addNamed semver.valid 2.0.8
+267 silly addNamed semver.validRange 2.0.8
+268 silly cache afterAdd minimatch@2.0.8
+269 verbose afterAdd /Users/luisfmsouza/.npm/minimatch/2.0.8/package/package.json not in flight; writing
+270 verbose afterAdd /Users/luisfmsouza/.npm/minimatch/2.0.8/package/package.json written
+271 silly install resolved [ { name: 'array-differ',
+271 silly install resolved     version: '1.0.0',
+271 silly install resolved     description: 'Create an array with values that are present in the first input array but not additional ones',
+271 silly install resolved     license: 'MIT',
+271 silly install resolved     repository:
+271 silly install resolved      { type: 'git',
+271 silly install resolved        url: 'git://github.com/sindresorhus/array-differ' },
+271 silly install resolved     author:
+271 silly install resolved      { name: 'Sindre Sorhus',
+271 silly install resolved        email: 'sindresorhus@gmail.com',
+271 silly install resolved        url: 'http://sindresorhus.com' },
+271 silly install resolved     engines: { node: '>=0.10.0' },
+271 silly install resolved     scripts: { test: 'mocha' },
+271 silly install resolved     files: [ 'index.js' ],
+271 silly install resolved     keywords: [ 'array', 'difference', 'diff', 'differ', 'filter', 'exclude' ],
+271 silly install resolved     devDependencies: { mocha: '*' },
+271 silly install resolved     gitHead: 'e91802976c4710eef8dea2090d48e48525cf41b1',
+271 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/array-differ/issues' },
+271 silly install resolved     homepage: 'https://github.com/sindresorhus/array-differ',
+271 silly install resolved     _id: 'array-differ@1.0.0',
+271 silly install resolved     _shasum: 'eff52e3758249d33be402b8bb8e564bb2b5d4031',
+271 silly install resolved     _from: 'array-differ@>=1.0.0 <2.0.0',
+271 silly install resolved     _npmVersion: '1.4.14',
+271 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+271 silly install resolved     maintainers: [ [Object] ],
+271 silly install resolved     dist:
+271 silly install resolved      { shasum: 'eff52e3758249d33be402b8bb8e564bb2b5d4031',
+271 silly install resolved        tarball: 'http://registry.npmjs.org/array-differ/-/array-differ-1.0.0.tgz' },
+271 silly install resolved     directories: {},
+271 silly install resolved     _resolved: 'https://registry.npmjs.org/array-differ/-/array-differ-1.0.0.tgz',
+271 silly install resolved     readme: 'ERROR: No README data found!' },
+271 silly install resolved   { name: 'array-union',
+271 silly install resolved     version: '1.0.1',
+271 silly install resolved     description: 'Create an array of unique values, in order, from the input arrays',
+271 silly install resolved     license: 'MIT',
+271 silly install resolved     repository:
+271 silly install resolved      { type: 'git',
+271 silly install resolved        url: 'https://github.com/sindresorhus/array-union' },
+271 silly install resolved     author:
+271 silly install resolved      { name: 'Sindre Sorhus',
+271 silly install resolved        email: 'sindresorhus@gmail.com',
+271 silly install resolved        url: 'http://sindresorhus.com' },
+271 silly install resolved     engines: { node: '>=0.10.0' },
+271 silly install resolved     scripts: { test: 'mocha' },
+271 silly install resolved     files: [ 'index.js' ],
+271 silly install resolved     keywords:
+271 silly install resolved      [ 'array',
+271 silly install resolved        'arr',
+271 silly install resolved        'set',
+271 silly install resolved        'uniq',
+271 silly install resolved        'unique',
+271 silly install resolved        'duplicate',
+271 silly install resolved        'remove',
+271 silly install resolved        'union',
+271 silly install resolved        'combine',
+271 silly install resolved        'merge' ],
+271 silly install resolved     dependencies: { 'array-uniq': '^1.0.1' },
+271 silly install resolved     devDependencies: { mocha: '*' },
+271 silly install resolved     gitHead: 'd0e72cc6fbff57273032e45050c51ff44c8e137c',
+271 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/array-union/issues' },
+271 silly install resolved     homepage: 'https://github.com/sindresorhus/array-union',
+271 silly install resolved     _id: 'array-union@1.0.1',
+271 silly install resolved     _shasum: '4d410fc8395cb247637124bade9e3f547d5d55f2',
+271 silly install resolved     _from: 'array-union@>=1.0.1 <2.0.0',
+271 silly install resolved     _npmVersion: '2.1.5',
+271 silly install resolved     _nodeVersion: '0.10.32',
+271 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+271 silly install resolved     maintainers: [ [Object] ],
+271 silly install resolved     dist:
+271 silly install resolved      { shasum: '4d410fc8395cb247637124bade9e3f547d5d55f2',
+271 silly install resolved        tarball: 'http://registry.npmjs.org/array-union/-/array-union-1.0.1.tgz' },
+271 silly install resolved     directories: {},
+271 silly install resolved     _resolved: 'https://registry.npmjs.org/array-union/-/array-union-1.0.1.tgz',
+271 silly install resolved     readme: 'ERROR: No README data found!' },
+271 silly install resolved   { author:
+271 silly install resolved      { name: 'Isaac Z. Schlueter',
+271 silly install resolved        email: 'i@izs.me',
+271 silly install resolved        url: 'http://blog.izs.me' },
+271 silly install resolved     name: 'minimatch',
+271 silly install resolved     description: 'a glob matcher in javascript',
+271 silly install resolved     version: '2.0.8',
+271 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+271 silly install resolved     main: 'minimatch.js',
+271 silly install resolved     scripts:
+271 silly install resolved      { pretest: 'standard minimatch.js test/*.js',
+271 silly install resolved        test: 'tap test/*.js',
+271 silly install resolved        prepublish: 'browserify -o browser.js -e minimatch.js --bare' },
+271 silly install resolved     engines: { node: '*' },
+271 silly install resolved     dependencies: { 'brace-expansion': '^1.0.0' },
+271 silly install resolved     devDependencies: { browserify: '^9.0.3', standard: '^3.7.2', tap: '' },
+271 silly install resolved     license: 'ISC',
+271 silly install resolved     files: [ 'minimatch.js', 'browser.js' ],
+271 silly install resolved     gitHead: '0bc7d9c4b2bc816502184862b45bd090de3406a3',
+271 silly install resolved     bugs: { url: 'https://github.com/isaacs/minimatch/issues' },
+271 silly install resolved     homepage: 'https://github.com/isaacs/minimatch#readme',
+271 silly install resolved     _id: 'minimatch@2.0.8',
+271 silly install resolved     _shasum: '0bc20f6bf3570a698ef0ddff902063c6cabda6bf',
+271 silly install resolved     _from: 'minimatch@>=2.0.1 <3.0.0',
+271 silly install resolved     _npmVersion: '2.10.0',
+271 silly install resolved     _nodeVersion: '2.0.1',
+271 silly install resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+271 silly install resolved     dist:
+271 silly install resolved      { shasum: '0bc20f6bf3570a698ef0ddff902063c6cabda6bf',
+271 silly install resolved        tarball: 'http://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz' },
+271 silly install resolved     maintainers: [ [Object] ],
+271 silly install resolved     directories: {},
+271 silly install resolved     _resolved: 'https://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz',
+271 silly install resolved     readme: 'ERROR: No README data found!' } ]
+272 info install array-differ@1.0.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+273 info install array-union@1.0.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+274 info install minimatch@2.0.8 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+275 info installOne array-differ@1.0.0
+276 verbose installOne of array-differ to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch not in flight; installing
+277 info installOne array-union@1.0.1
+278 verbose installOne of array-union to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch not in flight; installing
+279 info installOne minimatch@2.0.8
+280 verbose installOne of minimatch to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch not in flight; installing
+281 verbose lock using /Users/luisfmsouza/.npm/_locks/array-differ-8cac74c24ac8cb31.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+282 verbose lock using /Users/luisfmsouza/.npm/_locks/minimatch-6629559b99b7b027.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+283 verbose lock using /Users/luisfmsouza/.npm/_locks/array-union-7c247e8bdb700e62.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+284 silly install write writing array-differ 1.0.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+285 silly cache addNamed cb array-differ@1.0.0
+286 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+287 silly install write writing minimatch 2.0.8 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+288 silly cache addNamed cb minimatch@2.0.8
+289 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+290 silly install write writing array-union 1.0.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+291 silly cache addNamed cb array-union@1.0.1
+292 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+293 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+294 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+295 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+296 verbose tar unpack /Users/luisfmsouza/.npm/array-differ/1.0.0/package.tgz
+297 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+298 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+299 verbose tar unpack /Users/luisfmsouza/.npm/minimatch/2.0.8/package.tgz
+300 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+301 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+302 verbose tar unpack /Users/luisfmsouza/.npm/array-union/1.0.1/package.tgz
+303 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+304 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+305 silly gunzTarPerm modes [ '755', '644' ]
+306 silly gunzTarPerm modes [ '755', '644' ]
+307 silly gunzTarPerm modes [ '755', '644' ]
+308 silly gunzTarPerm extractEntry package.json
+309 silly gunzTarPerm extractEntry package.json
+310 silly gunzTarPerm extractEntry package.json
+311 silly gunzTarPerm extractEntry index.js
+312 silly gunzTarPerm extractEntry readme.md
+313 silly gunzTarPerm extractEntry index.js
+314 silly gunzTarPerm extractEntry readme.md
+315 silly gunzTarPerm extractEntry README.md
+316 silly gunzTarPerm extractEntry LICENSE
+317 silly gunzTarPerm extractEntry browser.js
+318 silly gunzTarPerm extractEntry minimatch.js
+319 info preinstall array-union@1.0.1
+320 info preinstall array-differ@1.0.0
+321 silly prepareForInstallMany adding array-uniq@^1.0.1 from array-union dependencies
+322 silly install resolved []
+323 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+324 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+325 verbose linkStuff [ false,
+325 verbose linkStuff   false,
+325 verbose linkStuff   false,
+325 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules' ]
+326 info linkStuff array-differ@1.0.0
+327 verbose linkBins array-differ@1.0.0
+328 verbose linkMans array-differ@1.0.0
+329 verbose rebuildBundles array-differ@1.0.0
+330 silly cache add args [ 'array-uniq@^1.0.1', null ]
+331 verbose cache add spec array-uniq@^1.0.1
+332 silly cache add parsed spec { raw: 'array-uniq@^1.0.1',
+332 silly cache add   scope: null,
+332 silly cache add   name: 'array-uniq',
+332 silly cache add   rawSpec: '^1.0.1',
+332 silly cache add   spec: '>=1.0.1 <2.0.0',
+332 silly cache add   type: 'range' }
+333 verbose addNamed array-uniq@>=1.0.1 <2.0.0
+334 silly addNamed semver.valid null
+335 silly addNamed semver.validRange >=1.0.1 <2.0.0
+336 silly addNameRange { name: 'array-uniq', range: '>=1.0.1 <2.0.0', hasData: false }
+337 silly mapToRegistry name array-uniq
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry uri https://registry.npmjs.org/array-uniq
+341 verbose addNameRange registry:https://registry.npmjs.org/array-uniq not in flight; fetching
+342 info install array-differ@1.0.0
+343 info postinstall array-differ@1.0.0
+344 verbose request uri https://registry.npmjs.org/array-uniq
+345 verbose request no auth needed
+346 info attempt registry request try #1 at 9:37:48 PM
+347 verbose etag "B6ICRHEFM20VRJY1ZUICY2C3J"
+348 http request GET https://registry.npmjs.org/array-uniq
+349 verbose unlock done using /Users/luisfmsouza/.npm/_locks/array-differ-8cac74c24ac8cb31.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-differ
+350 info preinstall minimatch@2.0.8
+351 silly prepareForInstallMany adding brace-expansion@^1.0.0 from minimatch dependencies
+352 silly cache add args [ 'brace-expansion@^1.0.0', null ]
+353 verbose cache add spec brace-expansion@^1.0.0
+354 silly cache add parsed spec { raw: 'brace-expansion@^1.0.0',
+354 silly cache add   scope: null,
+354 silly cache add   name: 'brace-expansion',
+354 silly cache add   rawSpec: '^1.0.0',
+354 silly cache add   spec: '>=1.0.0 <2.0.0',
+354 silly cache add   type: 'range' }
+355 verbose addNamed brace-expansion@>=1.0.0 <2.0.0
+356 silly addNamed semver.valid null
+357 silly addNamed semver.validRange >=1.0.0 <2.0.0
+358 silly addNameRange { name: 'brace-expansion',
+358 silly addNameRange   range: '>=1.0.0 <2.0.0',
+358 silly addNameRange   hasData: false }
+359 silly mapToRegistry name brace-expansion
+360 silly mapToRegistry using default registry
+361 silly mapToRegistry registry https://registry.npmjs.org/
+362 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+363 verbose addNameRange registry:https://registry.npmjs.org/brace-expansion not in flight; fetching
+364 verbose request uri https://registry.npmjs.org/brace-expansion
+365 verbose request no auth needed
+366 info attempt registry request try #1 at 9:37:48 PM
+367 verbose etag "18Z2VDE6EPY9JHP7D0I3PN5DH"
+368 http request GET https://registry.npmjs.org/brace-expansion
+369 http 304 https://registry.npmjs.org/glob
+370 silly get cb [ 304,
+370 silly get   { date: 'Tue, 02 Jun 2015 00:37:48 GMT',
+370 silly get     via: '1.1 varnish',
+370 silly get     'cache-control': 'max-age=60',
+370 silly get     etag: '"EU4LIZW480B1C8KHA0PUJYT3Z"',
+370 silly get     age: '31',
+370 silly get     connection: 'keep-alive',
+370 silly get     'x-served-by': 'cache-jfk1031-JFK',
+370 silly get     'x-cache': 'HIT',
+370 silly get     'x-cache-hits': '5',
+370 silly get     'x-timer': 'S1433205468.750996,VS0,VE0',
+370 silly get     vary: 'Accept' } ]
+371 verbose etag https://registry.npmjs.org/glob from cache
+372 verbose get saving glob to /Users/luisfmsouza/.npm/registry.npmjs.org/glob/.cache.json
+373 silly addNameRange number 2 { name: 'glob', range: '>=4.3.0 <4.4.0', hasData: true }
+374 silly addNameRange versions [ 'glob',
+374 silly addNameRange   [ '1.1.0',
+374 silly addNameRange     '2.0.9',
+374 silly addNameRange     '2.0.8',
+374 silly addNameRange     '2.0.7',
+374 silly addNameRange     '2.1.0',
+374 silly addNameRange     '3.0.0',
+374 silly addNameRange     '3.0.1',
+374 silly addNameRange     '3.1.0',
+374 silly addNameRange     '3.1.1',
+374 silly addNameRange     '3.1.2',
+374 silly addNameRange     '3.1.3',
+374 silly addNameRange     '3.1.4',
+374 silly addNameRange     '3.1.5',
+374 silly addNameRange     '3.1.6',
+374 silly addNameRange     '3.1.7',
+374 silly addNameRange     '3.1.9',
+374 silly addNameRange     '3.1.10',
+374 silly addNameRange     '3.1.11',
+374 silly addNameRange     '3.1.12',
+374 silly addNameRange     '3.1.13',
+374 silly addNameRange     '3.1.14',
+374 silly addNameRange     '3.1.15',
+374 silly addNameRange     '3.1.16',
+374 silly addNameRange     '3.1.17',
+374 silly addNameRange     '3.1.18',
+374 silly addNameRange     '3.1.19',
+374 silly addNameRange     '3.1.20',
+374 silly addNameRange     '3.1.21',
+374 silly addNameRange     '3.2.0',
+374 silly addNameRange     '3.2.1',
+374 silly addNameRange     '3.2.3',
+374 silly addNameRange     '3.2.4',
+374 silly addNameRange     '3.2.5',
+374 silly addNameRange     '3.2.6',
+374 silly addNameRange     '3.2.7',
+374 silly addNameRange     '3.2.8',
+374 silly addNameRange     '3.2.9',
+374 silly addNameRange     '3.2.10',
+374 silly addNameRange     '3.2.11',
+374 silly addNameRange     '4.0.0',
+374 silly addNameRange     '4.0.1',
+374 silly addNameRange     '4.0.2',
+374 silly addNameRange     '4.0.3',
+374 silly addNameRange     '4.0.4',
+374 silly addNameRange     '4.0.5',
+374 silly addNameRange     '4.0.6',
+374 silly addNameRange     '4.1.2-beta',
+374 silly addNameRange     '4.1.2',
+374 silly addNameRange     '4.1.3',
+374 silly addNameRange     '4.1.4',
+374 silly addNameRange     '4.1.5',
+374 silly addNameRange     '4.1.6',
+374 silly addNameRange     '4.2.0',
+374 silly addNameRange     '4.2.1',
+374 silly addNameRange     '4.2.2',
+374 silly addNameRange     '4.3.0',
+374 silly addNameRange     '4.3.1',
+374 silly addNameRange     '4.3.2',
+374 silly addNameRange     '4.3.3',
+374 silly addNameRange     '4.3.4',
+374 silly addNameRange     '4.3.5',
+374 silly addNameRange     '4.4.0',
+374 silly addNameRange     '4.4.2',
+374 silly addNameRange     '4.5.0',
+374 silly addNameRange     '5.0.0',
+374 silly addNameRange     '4.5.1',
+374 silly addNameRange     '5.0.1',
+374 silly addNameRange     '4.5.2',
+374 silly addNameRange     '5.0.2',
+374 silly addNameRange     '4.5.3',
+374 silly addNameRange     '5.0.3',
+374 silly addNameRange     '5.0.4',
+374 silly addNameRange     '5.0.5',
+374 silly addNameRange     '5.0.6',
+374 silly addNameRange     '5.0.7',
+374 silly addNameRange     '5.0.9',
+374 silly addNameRange     '5.0.10' ] ]
+375 verbose addNamed glob@4.3.5
+376 silly addNamed semver.valid 4.3.5
+377 silly addNamed semver.validRange 4.3.5
+378 silly cache afterAdd glob@4.3.5
+379 verbose afterAdd /Users/luisfmsouza/.npm/glob/4.3.5/package/package.json not in flight; writing
+380 verbose afterAdd /Users/luisfmsouza/.npm/glob/4.3.5/package/package.json written
+381 silly install resolved [ { author:
+381 silly install resolved      { name: 'Isaac Z. Schlueter',
+381 silly install resolved        email: 'i@izs.me',
+381 silly install resolved        url: 'http://blog.izs.me/' },
+381 silly install resolved     name: 'glob',
+381 silly install resolved     description: 'a little globber',
+381 silly install resolved     version: '4.3.5',
+381 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+381 silly install resolved     main: 'glob.js',
+381 silly install resolved     files: [ 'glob.js', 'sync.js', 'common.js' ],
+381 silly install resolved     engines: { node: '*' },
+381 silly install resolved     dependencies:
+381 silly install resolved      { inflight: '^1.0.4',
+381 silly install resolved        inherits: '2',
+381 silly install resolved        minimatch: '^2.0.1',
+381 silly install resolved        once: '^1.3.0' },
+381 silly install resolved     devDependencies: { mkdirp: '0', rimraf: '^2.2.8', tap: '^0.5.0', tick: '0.0.6' },
+381 silly install resolved     scripts:
+381 silly install resolved      { prepublish: 'npm run benchclean',
+381 silly install resolved        profclean: 'rm -f v8.log profile.txt',
+381 silly install resolved        test: 'npm run profclean && tap test/*.js',
+381 silly install resolved        'test-regen': 'npm run profclean && TEST_REGEN=1 node test/00-setup.js',
+381 silly install resolved        bench: 'bash benchmark.sh',
+381 silly install resolved        prof: 'bash prof.sh && cat profile.txt',
+381 silly install resolved        benchclean: 'bash benchclean.sh' },
+381 silly install resolved     license: 'ISC',
+381 silly install resolved     gitHead: '9de4cb6bfeb9c8458cf188fe91447b99bf8f3cfd',
+381 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-glob/issues' },
+381 silly install resolved     homepage: 'https://github.com/isaacs/node-glob',
+381 silly install resolved     _id: 'glob@4.3.5',
+381 silly install resolved     _shasum: '80fbb08ca540f238acce5d11d1e9bc41e75173d3',
+381 silly install resolved     _from: 'glob@>=4.3.0 <4.4.0',
+381 silly install resolved     _npmVersion: '2.2.0',
+381 silly install resolved     _nodeVersion: '0.10.35',
+381 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+381 silly install resolved     maintainers: [ [Object] ],
+381 silly install resolved     dist:
+381 silly install resolved      { shasum: '80fbb08ca540f238acce5d11d1e9bc41e75173d3',
+381 silly install resolved        tarball: 'http://registry.npmjs.org/glob/-/glob-4.3.5.tgz' },
+381 silly install resolved     directories: {},
+381 silly install resolved     _resolved: 'https://registry.npmjs.org/glob/-/glob-4.3.5.tgz',
+381 silly install resolved     readme: 'ERROR: No README data found!' } ]
+382 info install glob@4.3.5 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+383 info installOne glob@4.3.5
+384 verbose installOne of glob to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync not in flight; installing
+385 verbose lock using /Users/luisfmsouza/.npm/_locks/glob-5a30796e0d25a79f.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+386 silly install write writing glob 4.3.5 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+387 silly cache addNamed cb glob@4.3.5
+388 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+389 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+390 verbose tar unpack /Users/luisfmsouza/.npm/glob/4.3.5/package.tgz
+391 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+392 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+393 silly gunzTarPerm modes [ '755', '644' ]
+394 silly gunzTarPerm extractEntry package.json
+395 silly gunzTarPerm extractEntry README.md
+396 silly gunzTarPerm extractEntry LICENSE
+397 silly gunzTarPerm extractEntry common.js
+398 silly gunzTarPerm extractEntry glob.js
+399 silly gunzTarPerm extractEntry sync.js
+400 info preinstall glob@4.3.5
+401 silly prepareForInstallMany adding inflight@^1.0.4 from glob dependencies
+402 silly prepareForInstallMany adding inherits@2 from glob dependencies
+403 silly prepareForInstallMany adding minimatch@^2.0.1 from glob dependencies
+404 silly prepareForInstallMany adding once@^1.3.0 from glob dependencies
+405 silly cache add args [ 'inflight@^1.0.4', null ]
+406 verbose cache add spec inflight@^1.0.4
+407 silly cache add args [ 'inherits@2', null ]
+408 verbose cache add spec inherits@2
+409 silly cache add parsed spec { raw: 'inflight@^1.0.4',
+409 silly cache add   scope: null,
+409 silly cache add   name: 'inflight',
+409 silly cache add   rawSpec: '^1.0.4',
+409 silly cache add   spec: '>=1.0.4 <2.0.0',
+409 silly cache add   type: 'range' }
+410 verbose addNamed inflight@>=1.0.4 <2.0.0
+411 silly addNamed semver.valid null
+412 silly addNamed semver.validRange >=1.0.4 <2.0.0
+413 silly addNameRange { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: false }
+414 silly mapToRegistry name inflight
+415 silly mapToRegistry using default registry
+416 silly mapToRegistry registry https://registry.npmjs.org/
+417 silly mapToRegistry uri https://registry.npmjs.org/inflight
+418 verbose addNameRange registry:https://registry.npmjs.org/inflight not in flight; fetching
+419 silly cache add parsed spec { raw: 'inherits@2',
+419 silly cache add   scope: null,
+419 silly cache add   name: 'inherits',
+419 silly cache add   rawSpec: '2',
+419 silly cache add   spec: '>=2.0.0 <3.0.0',
+419 silly cache add   type: 'range' }
+420 verbose addNamed inherits@>=2.0.0 <3.0.0
+421 silly addNamed semver.valid null
+422 silly addNamed semver.validRange >=2.0.0 <3.0.0
+423 silly addNameRange { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: false }
+424 silly mapToRegistry name inherits
+425 silly mapToRegistry using default registry
+426 silly mapToRegistry registry https://registry.npmjs.org/
+427 silly mapToRegistry uri https://registry.npmjs.org/inherits
+428 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+429 silly cache add args [ 'minimatch@^2.0.1', null ]
+430 verbose cache add spec minimatch@^2.0.1
+431 silly cache add parsed spec { raw: 'minimatch@^2.0.1',
+431 silly cache add   scope: null,
+431 silly cache add   name: 'minimatch',
+431 silly cache add   rawSpec: '^2.0.1',
+431 silly cache add   spec: '>=2.0.1 <3.0.0',
+431 silly cache add   type: 'range' }
+432 verbose addNamed minimatch@>=2.0.1 <3.0.0
+433 silly addNamed semver.valid null
+434 silly addNamed semver.validRange >=2.0.1 <3.0.0
+435 silly addNameRange { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: false }
+436 silly mapToRegistry name minimatch
+437 silly mapToRegistry using default registry
+438 silly mapToRegistry registry https://registry.npmjs.org/
+439 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+440 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+441 silly cache add args [ 'once@^1.3.0', null ]
+442 verbose cache add spec once@^1.3.0
+443 silly cache add parsed spec { raw: 'once@^1.3.0',
+443 silly cache add   scope: null,
+443 silly cache add   name: 'once',
+443 silly cache add   rawSpec: '^1.3.0',
+443 silly cache add   spec: '>=1.3.0 <2.0.0',
+443 silly cache add   type: 'range' }
+444 verbose addNamed once@>=1.3.0 <2.0.0
+445 silly addNamed semver.valid null
+446 silly addNamed semver.validRange >=1.3.0 <2.0.0
+447 silly addNameRange { name: 'once', range: '>=1.3.0 <2.0.0', hasData: false }
+448 silly mapToRegistry name once
+449 silly mapToRegistry using default registry
+450 silly mapToRegistry registry https://registry.npmjs.org/
+451 silly mapToRegistry uri https://registry.npmjs.org/once
+452 verbose addNameRange registry:https://registry.npmjs.org/once not in flight; fetching
+453 verbose get https://registry.npmjs.org/minimatch not expired, no request
+454 silly addNameRange number 2 { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: true }
+455 silly addNameRange versions [ 'minimatch',
+455 silly addNameRange   [ '0.0.1',
+455 silly addNameRange     '0.0.2',
+455 silly addNameRange     '0.0.4',
+455 silly addNameRange     '0.0.5',
+455 silly addNameRange     '0.1.1',
+455 silly addNameRange     '0.1.2',
+455 silly addNameRange     '0.1.3',
+455 silly addNameRange     '0.1.4',
+455 silly addNameRange     '0.1.5',
+455 silly addNameRange     '0.2.0',
+455 silly addNameRange     '0.2.2',
+455 silly addNameRange     '0.2.3',
+455 silly addNameRange     '0.2.4',
+455 silly addNameRange     '0.2.5',
+455 silly addNameRange     '0.2.6',
+455 silly addNameRange     '0.2.7',
+455 silly addNameRange     '0.2.8',
+455 silly addNameRange     '0.2.9',
+455 silly addNameRange     '0.2.10',
+455 silly addNameRange     '0.2.11',
+455 silly addNameRange     '0.2.12',
+455 silly addNameRange     '0.2.13',
+455 silly addNameRange     '0.2.14',
+455 silly addNameRange     '0.3.0',
+455 silly addNameRange     '0.4.0',
+455 silly addNameRange     '1.0.0',
+455 silly addNameRange     '2.0.0',
+455 silly addNameRange     '2.0.1',
+455 silly addNameRange     '2.0.2',
+455 silly addNameRange     '2.0.3',
+455 silly addNameRange     '2.0.4',
+455 silly addNameRange     '2.0.5',
+455 silly addNameRange     '2.0.6',
+455 silly addNameRange     '2.0.7',
+455 silly addNameRange     '2.0.8' ] ]
+456 verbose addNamed minimatch@2.0.8
+457 silly addNamed semver.valid 2.0.8
+458 silly addNamed semver.validRange 2.0.8
+459 silly cache afterAdd minimatch@2.0.8
+460 verbose afterAdd /Users/luisfmsouza/.npm/minimatch/2.0.8/package/package.json not in flight; writing
+461 verbose request uri https://registry.npmjs.org/inflight
+462 verbose request no auth needed
+463 info attempt registry request try #1 at 9:37:48 PM
+464 verbose etag "6TGO37U1FD85W17TCDUWY0F9L"
+465 http request GET https://registry.npmjs.org/inflight
+466 verbose request uri https://registry.npmjs.org/inherits
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 9:37:48 PM
+469 verbose etag "24DC2YNIGTAXPVOCGH3WF1GW6"
+470 http request GET https://registry.npmjs.org/inherits
+471 verbose afterAdd /Users/luisfmsouza/.npm/minimatch/2.0.8/package/package.json written
+472 verbose request uri https://registry.npmjs.org/once
+473 verbose request no auth needed
+474 info attempt registry request try #1 at 9:37:48 PM
+475 verbose etag "3YWV28M9KI0EKRW9JD4DYUV2K"
+476 http request GET https://registry.npmjs.org/once
+477 http 304 https://registry.npmjs.org/inherits
+478 silly get cb [ 304,
+478 silly get   { date: 'Tue, 02 Jun 2015 00:37:50 GMT',
+478 silly get     via: '1.1 varnish',
+478 silly get     'cache-control': 'max-age=60',
+478 silly get     etag: '"24DC2YNIGTAXPVOCGH3WF1GW6"',
+478 silly get     age: '29',
+478 silly get     connection: 'keep-alive',
+478 silly get     'x-served-by': 'cache-jfk1029-JFK',
+478 silly get     'x-cache': 'HIT',
+478 silly get     'x-cache-hits': '6',
+478 silly get     'x-timer': 'S1433205470.226434,VS0,VE0',
+478 silly get     vary: 'Accept' } ]
+479 verbose etag https://registry.npmjs.org/inherits from cache
+480 verbose get saving inherits to /Users/luisfmsouza/.npm/registry.npmjs.org/inherits/.cache.json
+481 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: true }
+482 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+483 verbose addNamed inherits@2.0.1
+484 silly addNamed semver.valid 2.0.1
+485 silly addNamed semver.validRange 2.0.1
+486 silly cache afterAdd inherits@2.0.1
+487 verbose afterAdd /Users/luisfmsouza/.npm/inherits/2.0.1/package/package.json not in flight; writing
+488 verbose afterAdd /Users/luisfmsouza/.npm/inherits/2.0.1/package/package.json written
+489 http 304 https://registry.npmjs.org/inflight
+490 silly get cb [ 304,
+490 silly get   { date: 'Tue, 02 Jun 2015 00:37:50 GMT',
+490 silly get     via: '1.1 varnish',
+490 silly get     'cache-control': 'max-age=60',
+490 silly get     etag: '"6TGO37U1FD85W17TCDUWY0F9L"',
+490 silly get     age: '35',
+490 silly get     connection: 'keep-alive',
+490 silly get     'x-served-by': 'cache-jfk1032-JFK',
+490 silly get     'x-cache': 'HIT',
+490 silly get     'x-cache-hits': '111',
+490 silly get     'x-timer': 'S1433205470.320963,VS0,VE0',
+490 silly get     vary: 'Accept' } ]
+491 verbose etag https://registry.npmjs.org/inflight from cache
+492 verbose get saving inflight to /Users/luisfmsouza/.npm/registry.npmjs.org/inflight/.cache.json
+493 silly addNameRange number 2 { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: true }
+494 silly addNameRange versions [ 'inflight', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4' ] ]
+495 verbose addNamed inflight@1.0.4
+496 silly addNamed semver.valid 1.0.4
+497 silly addNamed semver.validRange 1.0.4
+498 silly cache afterAdd inflight@1.0.4
+499 verbose afterAdd /Users/luisfmsouza/.npm/inflight/1.0.4/package/package.json not in flight; writing
+500 verbose afterAdd /Users/luisfmsouza/.npm/inflight/1.0.4/package/package.json written
+501 http 304 https://registry.npmjs.org/once
+502 silly get cb [ 304,
+502 silly get   { date: 'Tue, 02 Jun 2015 00:37:51 GMT',
+502 silly get     via: '1.1 varnish',
+502 silly get     'cache-control': 'max-age=60',
+502 silly get     etag: '"3YWV28M9KI0EKRW9JD4DYUV2K"',
+502 silly get     age: '52',
+502 silly get     connection: 'keep-alive',
+502 silly get     'x-served-by': 'cache-jfk1024-JFK',
+502 silly get     'x-cache': 'HIT',
+502 silly get     'x-cache-hits': '8',
+502 silly get     'x-timer': 'S1433205471.658221,VS0,VE0',
+502 silly get     vary: 'Accept' } ]
+503 verbose etag https://registry.npmjs.org/once from cache
+504 verbose get saving once to /Users/luisfmsouza/.npm/registry.npmjs.org/once/.cache.json
+505 silly addNameRange number 2 { name: 'once', range: '>=1.3.0 <2.0.0', hasData: true }
+506 silly addNameRange versions [ 'once', [ '1.1.1', '1.2.0', '1.3.0', '1.3.1', '1.3.2' ] ]
+507 verbose addNamed once@1.3.2
+508 silly addNamed semver.valid 1.3.2
+509 silly addNamed semver.validRange 1.3.2
+510 silly cache afterAdd once@1.3.2
+511 verbose afterAdd /Users/luisfmsouza/.npm/once/1.3.2/package/package.json not in flight; writing
+512 verbose afterAdd /Users/luisfmsouza/.npm/once/1.3.2/package/package.json written
+513 silly install resolved [ { author:
+513 silly install resolved      { name: 'Isaac Z. Schlueter',
+513 silly install resolved        email: 'i@izs.me',
+513 silly install resolved        url: 'http://blog.izs.me' },
+513 silly install resolved     name: 'minimatch',
+513 silly install resolved     description: 'a glob matcher in javascript',
+513 silly install resolved     version: '2.0.8',
+513 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+513 silly install resolved     main: 'minimatch.js',
+513 silly install resolved     scripts:
+513 silly install resolved      { pretest: 'standard minimatch.js test/*.js',
+513 silly install resolved        test: 'tap test/*.js',
+513 silly install resolved        prepublish: 'browserify -o browser.js -e minimatch.js --bare' },
+513 silly install resolved     engines: { node: '*' },
+513 silly install resolved     dependencies: { 'brace-expansion': '^1.0.0' },
+513 silly install resolved     devDependencies: { browserify: '^9.0.3', standard: '^3.7.2', tap: '' },
+513 silly install resolved     license: 'ISC',
+513 silly install resolved     files: [ 'minimatch.js', 'browser.js' ],
+513 silly install resolved     gitHead: '0bc7d9c4b2bc816502184862b45bd090de3406a3',
+513 silly install resolved     bugs: { url: 'https://github.com/isaacs/minimatch/issues' },
+513 silly install resolved     homepage: 'https://github.com/isaacs/minimatch#readme',
+513 silly install resolved     _id: 'minimatch@2.0.8',
+513 silly install resolved     _shasum: '0bc20f6bf3570a698ef0ddff902063c6cabda6bf',
+513 silly install resolved     _from: 'minimatch@>=2.0.1 <3.0.0',
+513 silly install resolved     _npmVersion: '2.10.0',
+513 silly install resolved     _nodeVersion: '2.0.1',
+513 silly install resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+513 silly install resolved     dist:
+513 silly install resolved      { shasum: '0bc20f6bf3570a698ef0ddff902063c6cabda6bf',
+513 silly install resolved        tarball: 'http://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz' },
+513 silly install resolved     maintainers: [ [Object] ],
+513 silly install resolved     directories: {},
+513 silly install resolved     _resolved: 'https://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz',
+513 silly install resolved     readme: 'ERROR: No README data found!' },
+513 silly install resolved   { name: 'inherits',
+513 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+513 silly install resolved     version: '2.0.1',
+513 silly install resolved     keywords:
+513 silly install resolved      [ 'inheritance',
+513 silly install resolved        'class',
+513 silly install resolved        'klass',
+513 silly install resolved        'oop',
+513 silly install resolved        'object-oriented',
+513 silly install resolved        'inherits',
+513 silly install resolved        'browser',
+513 silly install resolved        'browserify' ],
+513 silly install resolved     main: './inherits.js',
+513 silly install resolved     browser: './inherits_browser.js',
+513 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+513 silly install resolved     license: 'ISC',
+513 silly install resolved     scripts: { test: 'node test' },
+513 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+513 silly install resolved     _id: 'inherits@2.0.1',
+513 silly install resolved     dist:
+513 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+513 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+513 silly install resolved     _from: 'inherits@>=2.0.0 <3.0.0',
+513 silly install resolved     _npmVersion: '1.3.8',
+513 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+513 silly install resolved     maintainers: [ [Object] ],
+513 silly install resolved     directories: {},
+513 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+513 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+513 silly install resolved     readme: 'ERROR: No README data found!',
+513 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+513 silly install resolved   { name: 'inflight',
+513 silly install resolved     version: '1.0.4',
+513 silly install resolved     description: 'Add callbacks to requests in flight to avoid async duplication',
+513 silly install resolved     main: 'inflight.js',
+513 silly install resolved     dependencies: { once: '^1.3.0', wrappy: '1' },
+513 silly install resolved     devDependencies: { tap: '^0.4.10' },
+513 silly install resolved     scripts: { test: 'tap test.js' },
+513 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inflight' },
+513 silly install resolved     author:
+513 silly install resolved      { name: 'Isaac Z. Schlueter',
+513 silly install resolved        email: 'i@izs.me',
+513 silly install resolved        url: 'http://blog.izs.me/' },
+513 silly install resolved     bugs: { url: 'https://github.com/isaacs/inflight/issues' },
+513 silly install resolved     homepage: 'https://github.com/isaacs/inflight',
+513 silly install resolved     license: 'ISC',
+513 silly install resolved     gitHead: 'c7b5531d572a867064d4a1da9e013e8910b7d1ba',
+513 silly install resolved     _id: 'inflight@1.0.4',
+513 silly install resolved     _shasum: '6cbb4521ebd51ce0ec0a936bfd7657ef7e9b172a',
+513 silly install resolved     _from: 'inflight@>=1.0.4 <2.0.0',
+513 silly install resolved     _npmVersion: '2.1.3',
+513 silly install resolved     _nodeVersion: '0.10.32',
+513 silly install resolved     _npmUser: { name: 'othiym23', email: 'ogd@aoaioxxysz.net' },
+513 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+513 silly install resolved     dist:
+513 silly install resolved      { shasum: '6cbb4521ebd51ce0ec0a936bfd7657ef7e9b172a',
+513 silly install resolved        tarball: 'http://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz' },
+513 silly install resolved     directories: {},
+513 silly install resolved     _resolved: 'https://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz',
+513 silly install resolved     readme: 'ERROR: No README data found!' },
+513 silly install resolved   { name: 'once',
+513 silly install resolved     version: '1.3.2',
+513 silly install resolved     description: 'Run a function exactly one time',
+513 silly install resolved     main: 'once.js',
+513 silly install resolved     directories: { test: 'test' },
+513 silly install resolved     dependencies: { wrappy: '1' },
+513 silly install resolved     devDependencies: { tap: '~0.3.0' },
+513 silly install resolved     scripts: { test: 'tap test/*.js' },
+513 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/once.git' },
+513 silly install resolved     keywords: [ 'once', 'function', 'one', 'single' ],
+513 silly install resolved     author:
+513 silly install resolved      { name: 'Isaac Z. Schlueter',
+513 silly install resolved        email: 'i@izs.me',
+513 silly install resolved        url: 'http://blog.izs.me/' },
+513 silly install resolved     license: 'ISC',
+513 silly install resolved     gitHead: 'e35eed5a7867574e2bf2260a1ba23970958b22f2',
+513 silly install resolved     bugs: { url: 'https://github.com/isaacs/once/issues' },
+513 silly install resolved     homepage: 'https://github.com/isaacs/once#readme',
+513 silly install resolved     _id: 'once@1.3.2',
+513 silly install resolved     _shasum: 'd8feeca93b039ec1dcdee7741c92bdac5e28081b',
+513 silly install resolved     _from: 'once@>=1.3.0 <2.0.0',
+513 silly install resolved     _npmVersion: '2.9.1',
+513 silly install resolved     _nodeVersion: '2.0.0',
+513 silly install resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+513 silly install resolved     dist:
+513 silly install resolved      { shasum: 'd8feeca93b039ec1dcdee7741c92bdac5e28081b',
+513 silly install resolved        tarball: 'http://registry.npmjs.org/once/-/once-1.3.2.tgz' },
+513 silly install resolved     maintainers: [ [Object] ],
+513 silly install resolved     _resolved: 'https://registry.npmjs.org/once/-/once-1.3.2.tgz',
+513 silly install resolved     readme: 'ERROR: No README data found!' } ]
+514 info install minimatch@2.0.8 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+515 info install inherits@2.0.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+516 info install inflight@1.0.4 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+517 info install once@1.3.2 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+518 info installOne minimatch@2.0.8
+519 verbose installOne of minimatch to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob not in flight; installing
+520 info installOne inherits@2.0.1
+521 verbose installOne of inherits to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob not in flight; installing
+522 info installOne inflight@1.0.4
+523 verbose installOne of inflight to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob not in flight; installing
+524 info installOne once@1.3.2
+525 verbose installOne of once to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob not in flight; installing
+526 verbose lock using /Users/luisfmsouza/.npm/_locks/minimatch-6e256882d66e62a5.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+527 verbose lock using /Users/luisfmsouza/.npm/_locks/inherits-20926d983b89b3cd.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+528 silly install write writing minimatch 2.0.8 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+529 silly cache addNamed cb minimatch@2.0.8
+530 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+531 silly install write writing inherits 2.0.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+532 silly cache addNamed cb inherits@2.0.1
+533 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+534 verbose lock using /Users/luisfmsouza/.npm/_locks/inflight-642351a827bc1d48.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+535 verbose lock using /Users/luisfmsouza/.npm/_locks/once-61ae0d8682b7e668.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+536 silly install write writing inflight 1.0.4 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+537 silly cache addNamed cb inflight@1.0.4
+538 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+539 silly install write writing once 1.3.2 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+540 silly cache addNamed cb once@1.3.2
+541 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+542 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+543 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+544 verbose tar unpack /Users/luisfmsouza/.npm/minimatch/2.0.8/package.tgz
+545 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+546 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+547 verbose tar unpack /Users/luisfmsouza/.npm/inherits/2.0.1/package.tgz
+548 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+549 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+550 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+551 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+552 silly gunzTarPerm modes [ '755', '644' ]
+553 silly gunzTarPerm modes [ '755', '644' ]
+554 verbose tar unpack /Users/luisfmsouza/.npm/inflight/1.0.4/package.tgz
+555 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+556 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+557 verbose tar unpack /Users/luisfmsouza/.npm/once/1.3.2/package.tgz
+558 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+559 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+560 silly gunzTarPerm modes [ '755', '644' ]
+561 silly gunzTarPerm modes [ '755', '644' ]
+562 silly gunzTarPerm extractEntry package.json
+563 silly gunzTarPerm extractEntry package.json
+564 silly gunzTarPerm extractEntry package.json
+565 silly gunzTarPerm extractEntry package.json
+566 silly gunzTarPerm extractEntry README.md
+567 silly gunzTarPerm extractEntry LICENSE
+568 silly gunzTarPerm extractEntry README.md
+569 silly gunzTarPerm extractEntry LICENSE
+570 silly gunzTarPerm extractEntry README.md
+571 silly gunzTarPerm extractEntry LICENSE
+572 silly gunzTarPerm extractEntry README.md
+573 silly gunzTarPerm extractEntry LICENSE
+574 silly gunzTarPerm extractEntry browser.js
+575 silly gunzTarPerm extractEntry minimatch.js
+576 silly gunzTarPerm extractEntry inherits.js
+577 silly gunzTarPerm extractEntry inherits_browser.js
+578 silly gunzTarPerm extractEntry inflight.js
+579 silly gunzTarPerm extractEntry test.js
+580 silly gunzTarPerm extractEntry once.js
+581 silly gunzTarPerm extractEntry test/once.js
+582 silly gunzTarPerm extractEntry test.js
+583 silly gunzTarPerm extractEntry .eslintrc
+584 info preinstall once@1.3.2
+585 silly prepareForInstallMany adding wrappy@1 from once dependencies
+586 info preinstall inherits@2.0.1
+587 silly cache add args [ 'wrappy@1', null ]
+588 verbose cache add spec wrappy@1
+589 silly cache add parsed spec { raw: 'wrappy@1',
+589 silly cache add   scope: null,
+589 silly cache add   name: 'wrappy',
+589 silly cache add   rawSpec: '1',
+589 silly cache add   spec: '>=1.0.0 <2.0.0',
+589 silly cache add   type: 'range' }
+590 verbose addNamed wrappy@>=1.0.0 <2.0.0
+591 silly addNamed semver.valid null
+592 silly addNamed semver.validRange >=1.0.0 <2.0.0
+593 silly addNameRange { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: false }
+594 silly mapToRegistry name wrappy
+595 silly mapToRegistry using default registry
+596 silly mapToRegistry registry https://registry.npmjs.org/
+597 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+598 verbose addNameRange registry:https://registry.npmjs.org/wrappy not in flight; fetching
+599 info preinstall inflight@1.0.4
+600 silly install resolved []
+601 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+602 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+603 verbose linkStuff [ false,
+603 verbose linkStuff   false,
+603 verbose linkStuff   false,
+603 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules' ]
+604 info linkStuff inherits@2.0.1
+605 verbose linkBins inherits@2.0.1
+606 verbose linkMans inherits@2.0.1
+607 verbose rebuildBundles inherits@2.0.1
+608 info install inherits@2.0.1
+609 verbose request uri https://registry.npmjs.org/wrappy
+610 verbose request no auth needed
+611 info attempt registry request try #1 at 9:37:51 PM
+612 verbose etag "BOZ8BM06UJZ9H42VL048PBQMV"
+613 http request GET https://registry.npmjs.org/wrappy
+614 silly prepareForInstallMany adding wrappy@1 from inflight dependencies
+615 info postinstall inherits@2.0.1
+616 silly cache add args [ 'wrappy@1', null ]
+617 verbose cache add spec wrappy@1
+618 silly cache add parsed spec { raw: 'wrappy@1',
+618 silly cache add   scope: null,
+618 silly cache add   name: 'wrappy',
+618 silly cache add   rawSpec: '1',
+618 silly cache add   spec: '>=1.0.0 <2.0.0',
+618 silly cache add   type: 'range' }
+619 verbose addNamed wrappy@>=1.0.0 <2.0.0
+620 silly addNamed semver.valid null
+621 silly addNamed semver.validRange >=1.0.0 <2.0.0
+622 silly addNameRange { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: false }
+623 silly mapToRegistry name wrappy
+624 silly mapToRegistry using default registry
+625 silly mapToRegistry registry https://registry.npmjs.org/
+626 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+627 verbose addNameRange registry:https://registry.npmjs.org/wrappy already in flight; waiting
+628 verbose unlock done using /Users/luisfmsouza/.npm/_locks/inherits-20926d983b89b3cd.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inherits
+629 info preinstall minimatch@2.0.8
+630 silly prepareForInstallMany adding brace-expansion@^1.0.0 from minimatch dependencies
+631 silly cache add args [ 'brace-expansion@^1.0.0', null ]
+632 verbose cache add spec brace-expansion@^1.0.0
+633 silly cache add parsed spec { raw: 'brace-expansion@^1.0.0',
+633 silly cache add   scope: null,
+633 silly cache add   name: 'brace-expansion',
+633 silly cache add   rawSpec: '^1.0.0',
+633 silly cache add   spec: '>=1.0.0 <2.0.0',
+633 silly cache add   type: 'range' }
+634 verbose addNamed brace-expansion@>=1.0.0 <2.0.0
+635 silly addNamed semver.valid null
+636 silly addNamed semver.validRange >=1.0.0 <2.0.0
+637 silly addNameRange { name: 'brace-expansion',
+637 silly addNameRange   range: '>=1.0.0 <2.0.0',
+637 silly addNameRange   hasData: false }
+638 silly mapToRegistry name brace-expansion
+639 silly mapToRegistry using default registry
+640 silly mapToRegistry registry https://registry.npmjs.org/
+641 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+642 verbose addNameRange registry:https://registry.npmjs.org/brace-expansion already in flight; waiting
+643 http 304 https://registry.npmjs.org/brace-expansion
+644 silly get cb [ 304,
+644 silly get   { date: 'Tue, 02 Jun 2015 00:37:52 GMT',
+644 silly get     via: '1.1 varnish',
+644 silly get     'cache-control': 'max-age=60',
+644 silly get     etag: '"18Z2VDE6EPY9JHP7D0I3PN5DH"',
+644 silly get     age: '36',
+644 silly get     connection: 'keep-alive',
+644 silly get     'x-served-by': 'cache-jfk1033-JFK',
+644 silly get     'x-cache': 'HIT',
+644 silly get     'x-cache-hits': '3',
+644 silly get     'x-timer': 'S1433205472.552101,VS0,VE0',
+644 silly get     vary: 'Accept' } ]
+645 verbose etag https://registry.npmjs.org/brace-expansion from cache
+646 verbose get saving brace-expansion to /Users/luisfmsouza/.npm/registry.npmjs.org/brace-expansion/.cache.json
+647 silly addNameRange number 2 { name: 'brace-expansion',
+647 silly addNameRange   range: '>=1.0.0 <2.0.0',
+647 silly addNameRange   hasData: true }
+648 silly addNameRange versions [ 'brace-expansion', [ '0.0.0', '1.0.0', '1.0.1', '1.1.0' ] ]
+649 verbose addNamed brace-expansion@1.1.0
+650 silly addNamed semver.valid 1.1.0
+651 silly addNamed semver.validRange 1.1.0
+652 silly addNameRange number 2 { name: 'brace-expansion',
+652 silly addNameRange   range: '>=1.0.0 <2.0.0',
+652 silly addNameRange   hasData: true }
+653 silly addNameRange versions [ 'brace-expansion', [ '0.0.0', '1.0.0', '1.0.1', '1.1.0' ] ]
+654 verbose addNamed brace-expansion@1.1.0
+655 silly addNamed semver.valid 1.1.0
+656 silly addNamed semver.validRange 1.1.0
+657 silly cache afterAdd brace-expansion@1.1.0
+658 verbose afterAdd /Users/luisfmsouza/.npm/brace-expansion/1.1.0/package/package.json not in flight; writing
+659 silly cache afterAdd brace-expansion@1.1.0
+660 verbose afterAdd /Users/luisfmsouza/.npm/brace-expansion/1.1.0/package/package.json already in flight; not writing
+661 verbose afterAdd /Users/luisfmsouza/.npm/brace-expansion/1.1.0/package/package.json written
+662 silly install resolved [ { name: 'brace-expansion',
+662 silly install resolved     description: 'Brace expansion as known from sh/bash',
+662 silly install resolved     version: '1.1.0',
+662 silly install resolved     repository:
+662 silly install resolved      { type: 'git',
+662 silly install resolved        url: 'git://github.com/juliangruber/brace-expansion.git' },
+662 silly install resolved     homepage: 'https://github.com/juliangruber/brace-expansion',
+662 silly install resolved     main: 'index.js',
+662 silly install resolved     scripts: { test: 'tape test/*.js', gentest: 'bash test/generate.sh' },
+662 silly install resolved     dependencies: { 'balanced-match': '^0.2.0', 'concat-map': '0.0.1' },
+662 silly install resolved     devDependencies: { tape: '^3.0.3' },
+662 silly install resolved     keywords: [],
+662 silly install resolved     author:
+662 silly install resolved      { name: 'Julian Gruber',
+662 silly install resolved        email: 'mail@juliangruber.com',
+662 silly install resolved        url: 'http://juliangruber.com' },
+662 silly install resolved     license: 'MIT',
+662 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+662 silly install resolved     gitHead: 'b5fa3b1c74e5e2dba2d0efa19b28335641bc1164',
+662 silly install resolved     bugs: { url: 'https://github.com/juliangruber/brace-expansion/issues' },
+662 silly install resolved     _id: 'brace-expansion@1.1.0',
+662 silly install resolved     _shasum: 'c9b7d03c03f37bc704be100e522b40db8f6cfcd9',
+662 silly install resolved     _from: 'brace-expansion@>=1.0.0 <2.0.0',
+662 silly install resolved     _npmVersion: '2.1.10',
+662 silly install resolved     _nodeVersion: '0.10.32',
+662 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+662 silly install resolved     maintainers: [ [Object], [Object] ],
+662 silly install resolved     dist:
+662 silly install resolved      { shasum: 'c9b7d03c03f37bc704be100e522b40db8f6cfcd9',
+662 silly install resolved        tarball: 'http://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz' },
+662 silly install resolved     directories: {},
+662 silly install resolved     _resolved: 'https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz',
+662 silly install resolved     readme: 'ERROR: No README data found!' } ]
+663 info install brace-expansion@1.1.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+664 info installOne brace-expansion@1.1.0
+665 verbose installOne of brace-expansion to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch not in flight; installing
+666 silly install resolved [ { name: 'brace-expansion',
+666 silly install resolved     description: 'Brace expansion as known from sh/bash',
+666 silly install resolved     version: '1.1.0',
+666 silly install resolved     repository:
+666 silly install resolved      { type: 'git',
+666 silly install resolved        url: 'git://github.com/juliangruber/brace-expansion.git' },
+666 silly install resolved     homepage: 'https://github.com/juliangruber/brace-expansion',
+666 silly install resolved     main: 'index.js',
+666 silly install resolved     scripts: { test: 'tape test/*.js', gentest: 'bash test/generate.sh' },
+666 silly install resolved     dependencies: { 'balanced-match': '^0.2.0', 'concat-map': '0.0.1' },
+666 silly install resolved     devDependencies: { tape: '^3.0.3' },
+666 silly install resolved     keywords: [],
+666 silly install resolved     author:
+666 silly install resolved      { name: 'Julian Gruber',
+666 silly install resolved        email: 'mail@juliangruber.com',
+666 silly install resolved        url: 'http://juliangruber.com' },
+666 silly install resolved     license: 'MIT',
+666 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+666 silly install resolved     gitHead: 'b5fa3b1c74e5e2dba2d0efa19b28335641bc1164',
+666 silly install resolved     bugs: { url: 'https://github.com/juliangruber/brace-expansion/issues' },
+666 silly install resolved     _id: 'brace-expansion@1.1.0',
+666 silly install resolved     _shasum: 'c9b7d03c03f37bc704be100e522b40db8f6cfcd9',
+666 silly install resolved     _from: 'brace-expansion@>=1.0.0 <2.0.0',
+666 silly install resolved     _npmVersion: '2.1.10',
+666 silly install resolved     _nodeVersion: '0.10.32',
+666 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+666 silly install resolved     maintainers: [ [Object], [Object] ],
+666 silly install resolved     dist:
+666 silly install resolved      { shasum: 'c9b7d03c03f37bc704be100e522b40db8f6cfcd9',
+666 silly install resolved        tarball: 'http://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz' },
+666 silly install resolved     directories: {},
+666 silly install resolved     _resolved: 'https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz',
+666 silly install resolved     readme: 'ERROR: No README data found!' } ]
+667 info install brace-expansion@1.1.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+668 info installOne brace-expansion@1.1.0
+669 verbose installOne of brace-expansion to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch not in flight; installing
+670 verbose lock using /Users/luisfmsouza/.npm/_locks/brace-expansion-d49a9189c516b8d6.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+671 verbose lock using /Users/luisfmsouza/.npm/_locks/brace-expansion-bcb9fec245043ca2.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+672 silly install write writing brace-expansion 1.1.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+673 silly cache addNamed cb brace-expansion@1.1.0
+674 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+675 silly install write writing brace-expansion 1.1.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+676 silly cache addNamed cb brace-expansion@1.1.0
+677 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+678 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+679 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+680 verbose tar unpack /Users/luisfmsouza/.npm/brace-expansion/1.1.0/package.tgz
+681 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+682 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+683 verbose tar unpack /Users/luisfmsouza/.npm/brace-expansion/1.1.0/package.tgz
+684 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+685 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+686 silly gunzTarPerm modes [ '755', '644' ]
+687 silly gunzTarPerm modes [ '755', '644' ]
+688 silly gunzTarPerm extractEntry package.json
+689 silly gunzTarPerm extractEntry package.json
+690 silly gunzTarPerm extractEntry .npmignore
+691 silly gunzTarPerm extractEntry README.md
+692 silly gunzTarPerm extractEntry .npmignore
+693 silly gunzTarPerm extractEntry README.md
+694 silly gunzTarPerm extractEntry example.js
+695 silly gunzTarPerm extractEntry index.js
+696 silly gunzTarPerm extractEntry example.js
+697 silly gunzTarPerm extractEntry index.js
+698 silly gunzTarPerm extractEntry .travis.yml
+699 silly gunzTarPerm extractEntry test/bash-comparison.js
+700 silly gunzTarPerm extractEntry .travis.yml
+701 silly gunzTarPerm extractEntry test/bash-comparison.js
+702 silly gunzTarPerm extractEntry test/same-type.js
+703 silly gunzTarPerm extractEntry test/dollar.js
+704 silly gunzTarPerm extractEntry test/empty-option.js
+705 silly gunzTarPerm extractEntry test/pad.js
+706 silly gunzTarPerm extractEntry test/order.js
+707 silly gunzTarPerm extractEntry test/nested.js
+708 silly gunzTarPerm extractEntry test/sequence.js
+709 silly gunzTarPerm extractEntry test/negative-increment.js
+710 silly gunzTarPerm extractEntry test/bash-results.txt
+711 silly gunzTarPerm extractEntry test/generate.sh
+712 silly gunzTarPerm extractEntry test/cases.txt
+713 silly gunzTarPerm extractEntry test/same-type.js
+714 silly gunzTarPerm extractEntry test/dollar.js
+715 silly gunzTarPerm extractEntry test/empty-option.js
+716 silly gunzTarPerm extractEntry test/pad.js
+717 silly gunzTarPerm extractEntry test/order.js
+718 silly gunzTarPerm extractEntry test/nested.js
+719 silly gunzTarPerm extractEntry test/sequence.js
+720 silly gunzTarPerm extractEntry test/negative-increment.js
+721 silly gunzTarPerm extractEntry test/bash-results.txt
+722 silly gunzTarPerm extractEntry test/generate.sh
+723 silly gunzTarPerm extractEntry test/cases.txt
+724 info preinstall brace-expansion@1.1.0
+725 info preinstall brace-expansion@1.1.0
+726 silly prepareForInstallMany adding balanced-match@^0.2.0 from brace-expansion dependencies
+727 silly prepareForInstallMany adding concat-map@0.0.1 from brace-expansion dependencies
+728 silly prepareForInstallMany adding balanced-match@^0.2.0 from brace-expansion dependencies
+729 silly prepareForInstallMany adding concat-map@0.0.1 from brace-expansion dependencies
+730 silly cache add args [ 'balanced-match@^0.2.0', null ]
+731 verbose cache add spec balanced-match@^0.2.0
+732 silly cache add args [ 'concat-map@0.0.1', null ]
+733 verbose cache add spec concat-map@0.0.1
+734 silly cache add args [ 'balanced-match@^0.2.0', null ]
+735 verbose cache add spec balanced-match@^0.2.0
+736 silly cache add args [ 'concat-map@0.0.1', null ]
+737 verbose cache add spec concat-map@0.0.1
+738 silly cache add parsed spec { raw: 'balanced-match@^0.2.0',
+738 silly cache add   scope: null,
+738 silly cache add   name: 'balanced-match',
+738 silly cache add   rawSpec: '^0.2.0',
+738 silly cache add   spec: '>=0.2.0 <0.3.0',
+738 silly cache add   type: 'range' }
+739 verbose addNamed balanced-match@>=0.2.0 <0.3.0
+740 silly addNamed semver.valid null
+741 silly addNamed semver.validRange >=0.2.0 <0.3.0
+742 silly addNameRange { name: 'balanced-match',
+742 silly addNameRange   range: '>=0.2.0 <0.3.0',
+742 silly addNameRange   hasData: false }
+743 silly mapToRegistry name balanced-match
+744 silly mapToRegistry using default registry
+745 silly mapToRegistry registry https://registry.npmjs.org/
+746 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+747 verbose addNameRange registry:https://registry.npmjs.org/balanced-match not in flight; fetching
+748 silly cache add parsed spec { raw: 'concat-map@0.0.1',
+748 silly cache add   scope: null,
+748 silly cache add   name: 'concat-map',
+748 silly cache add   rawSpec: '0.0.1',
+748 silly cache add   spec: '0.0.1',
+748 silly cache add   type: 'version' }
+749 verbose addNamed concat-map@0.0.1
+750 silly addNamed semver.valid 0.0.1
+751 silly addNamed semver.validRange 0.0.1
+752 silly mapToRegistry name concat-map
+753 silly mapToRegistry using default registry
+754 silly mapToRegistry registry https://registry.npmjs.org/
+755 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+756 verbose addNameVersion registry:https://registry.npmjs.org/concat-map not in flight; fetching
+757 silly cache add parsed spec { raw: 'balanced-match@^0.2.0',
+757 silly cache add   scope: null,
+757 silly cache add   name: 'balanced-match',
+757 silly cache add   rawSpec: '^0.2.0',
+757 silly cache add   spec: '>=0.2.0 <0.3.0',
+757 silly cache add   type: 'range' }
+758 verbose addNamed balanced-match@>=0.2.0 <0.3.0
+759 silly addNamed semver.valid null
+760 silly addNamed semver.validRange >=0.2.0 <0.3.0
+761 silly addNameRange { name: 'balanced-match',
+761 silly addNameRange   range: '>=0.2.0 <0.3.0',
+761 silly addNameRange   hasData: false }
+762 silly mapToRegistry name balanced-match
+763 silly mapToRegistry using default registry
+764 silly mapToRegistry registry https://registry.npmjs.org/
+765 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+766 verbose addNameRange registry:https://registry.npmjs.org/balanced-match already in flight; waiting
+767 silly cache add parsed spec { raw: 'concat-map@0.0.1',
+767 silly cache add   scope: null,
+767 silly cache add   name: 'concat-map',
+767 silly cache add   rawSpec: '0.0.1',
+767 silly cache add   spec: '0.0.1',
+767 silly cache add   type: 'version' }
+768 verbose addNamed concat-map@0.0.1
+769 silly addNamed semver.valid 0.0.1
+770 silly addNamed semver.validRange 0.0.1
+771 silly mapToRegistry name concat-map
+772 silly mapToRegistry using default registry
+773 silly mapToRegistry registry https://registry.npmjs.org/
+774 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+775 verbose addNameVersion registry:https://registry.npmjs.org/concat-map already in flight; waiting
+776 verbose request uri https://registry.npmjs.org/concat-map
+777 verbose request no auth needed
+778 info attempt registry request try #1 at 9:37:52 PM
+779 verbose etag "2U454Y0TO6HIGLHDYCQETYTN8"
+780 http request GET https://registry.npmjs.org/concat-map
+781 verbose request uri https://registry.npmjs.org/balanced-match
+782 verbose request no auth needed
+783 info attempt registry request try #1 at 9:37:52 PM
+784 verbose etag "2H6AO94YXV8VUX762CZ8KGSIJ"
+785 http request GET https://registry.npmjs.org/balanced-match
+786 http 304 https://registry.npmjs.org/array-uniq
+787 silly get cb [ 304,
+787 silly get   { date: 'Tue, 02 Jun 2015 00:37:52 GMT',
+787 silly get     via: '1.1 varnish',
+787 silly get     'cache-control': 'max-age=60',
+787 silly get     etag: '"B6ICRHEFM20VRJY1ZUICY2C3J"',
+787 silly get     age: '41',
+787 silly get     connection: 'keep-alive',
+787 silly get     'x-served-by': 'cache-jfk1023-JFK',
+787 silly get     'x-cache': 'HIT',
+787 silly get     'x-cache-hits': '2',
+787 silly get     'x-timer': 'S1433205472.771158,VS0,VE0',
+787 silly get     vary: 'Accept' } ]
+788 verbose etag https://registry.npmjs.org/array-uniq from cache
+789 verbose get saving array-uniq to /Users/luisfmsouza/.npm/registry.npmjs.org/array-uniq/.cache.json
+790 silly addNameRange number 2 { name: 'array-uniq', range: '>=1.0.1 <2.0.0', hasData: true }
+791 silly addNameRange versions [ 'array-uniq',
+791 silly addNameRange   [ '0.1.0', '0.1.1', '1.0.0', '1.0.1', '1.0.2' ] ]
+792 verbose addNamed array-uniq@1.0.2
+793 silly addNamed semver.valid 1.0.2
+794 silly addNamed semver.validRange 1.0.2
+795 silly cache afterAdd array-uniq@1.0.2
+796 verbose afterAdd /Users/luisfmsouza/.npm/array-uniq/1.0.2/package/package.json not in flight; writing
+797 verbose afterAdd /Users/luisfmsouza/.npm/array-uniq/1.0.2/package/package.json written
+798 silly install resolved [ { name: 'array-uniq',
+798 silly install resolved     version: '1.0.2',
+798 silly install resolved     description: 'Create an array without duplicates',
+798 silly install resolved     license: 'MIT',
+798 silly install resolved     repository:
+798 silly install resolved      { type: 'git',
+798 silly install resolved        url: 'https://github.com/sindresorhus/array-uniq' },
+798 silly install resolved     author:
+798 silly install resolved      { name: 'Sindre Sorhus',
+798 silly install resolved        email: 'sindresorhus@gmail.com',
+798 silly install resolved        url: 'http://sindresorhus.com' },
+798 silly install resolved     engines: { node: '>=0.10.0' },
+798 silly install resolved     scripts: { test: 'mocha' },
+798 silly install resolved     files: [ 'index.js' ],
+798 silly install resolved     keywords:
+798 silly install resolved      [ 'array',
+798 silly install resolved        'arr',
+798 silly install resolved        'set',
+798 silly install resolved        'uniq',
+798 silly install resolved        'unique',
+798 silly install resolved        'es6',
+798 silly install resolved        'duplicate',
+798 silly install resolved        'remove' ],
+798 silly install resolved     devDependencies: { 'es6-set': '^0.1.0', mocha: '*', 'require-uncached': '^1.0.2' },
+798 silly install resolved     gitHead: 'd5e311f37692dfd25ec216490df10632ce5f69f3',
+798 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/array-uniq/issues' },
+798 silly install resolved     homepage: 'https://github.com/sindresorhus/array-uniq',
+798 silly install resolved     _id: 'array-uniq@1.0.2',
+798 silly install resolved     _shasum: '5fcc373920775723cfd64d65c64bef53bf9eba6d',
+798 silly install resolved     _from: 'array-uniq@>=1.0.1 <2.0.0',
+798 silly install resolved     _npmVersion: '2.1.5',
+798 silly install resolved     _nodeVersion: '0.10.32',
+798 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+798 silly install resolved     maintainers: [ [Object] ],
+798 silly install resolved     dist:
+798 silly install resolved      { shasum: '5fcc373920775723cfd64d65c64bef53bf9eba6d',
+798 silly install resolved        tarball: 'http://registry.npmjs.org/array-uniq/-/array-uniq-1.0.2.tgz' },
+798 silly install resolved     directories: {},
+798 silly install resolved     _resolved: 'https://registry.npmjs.org/array-uniq/-/array-uniq-1.0.2.tgz',
+798 silly install resolved     readme: 'ERROR: No README data found!' } ]
+799 info install array-uniq@1.0.2 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+800 info installOne array-uniq@1.0.2
+801 verbose installOne of array-uniq to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union not in flight; installing
+802 verbose lock using /Users/luisfmsouza/.npm/_locks/array-uniq-6cf0e0928e70b272.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+803 silly install write writing array-uniq 1.0.2 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+804 silly cache addNamed cb array-uniq@1.0.2
+805 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+806 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+807 verbose tar unpack /Users/luisfmsouza/.npm/array-uniq/1.0.2/package.tgz
+808 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+809 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+810 silly gunzTarPerm modes [ '755', '644' ]
+811 silly gunzTarPerm extractEntry package.json
+812 silly gunzTarPerm extractEntry index.js
+813 silly gunzTarPerm extractEntry readme.md
+814 info preinstall array-uniq@1.0.2
+815 silly install resolved []
+816 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+817 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+818 verbose linkStuff [ false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules' ]
+819 info linkStuff array-uniq@1.0.2
+820 verbose linkBins array-uniq@1.0.2
+821 verbose linkMans array-uniq@1.0.2
+822 verbose rebuildBundles array-uniq@1.0.2
+823 info install array-uniq@1.0.2
+824 info postinstall array-uniq@1.0.2
+825 verbose unlock done using /Users/luisfmsouza/.npm/_locks/array-uniq-6cf0e0928e70b272.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union/node_modules/array-uniq
+826 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+827 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+828 verbose linkStuff [ false,
+828 verbose linkStuff   false,
+828 verbose linkStuff   false,
+828 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules' ]
+829 info linkStuff array-union@1.0.1
+830 verbose linkBins array-union@1.0.1
+831 verbose linkMans array-union@1.0.1
+832 verbose rebuildBundles array-union@1.0.1
+833 verbose rebuildBundles [ 'array-uniq' ]
+834 info install array-union@1.0.1
+835 info postinstall array-union@1.0.1
+836 verbose unlock done using /Users/luisfmsouza/.npm/_locks/array-union-7c247e8bdb700e62.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/array-union
+837 http 304 https://registry.npmjs.org/wrappy
+838 silly get cb [ 304,
+838 silly get   { date: 'Tue, 02 Jun 2015 00:37:53 GMT',
+838 silly get     via: '1.1 varnish',
+838 silly get     'cache-control': 'max-age=60',
+838 silly get     etag: '"BOZ8BM06UJZ9H42VL048PBQMV"',
+838 silly get     age: '54',
+838 silly get     connection: 'keep-alive',
+838 silly get     'x-served-by': 'cache-jfk1026-JFK',
+838 silly get     'x-cache': 'HIT',
+838 silly get     'x-cache-hits': '10',
+838 silly get     'x-timer': 'S1433205473.381287,VS0,VE0',
+838 silly get     vary: 'Accept' } ]
+839 verbose etag https://registry.npmjs.org/wrappy from cache
+840 verbose get saving wrappy to /Users/luisfmsouza/.npm/registry.npmjs.org/wrappy/.cache.json
+841 silly addNameRange number 2 { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: true }
+842 silly addNameRange versions [ 'wrappy', [ '1.0.0', '1.0.1' ] ]
+843 verbose addNamed wrappy@1.0.1
+844 silly addNamed semver.valid 1.0.1
+845 silly addNamed semver.validRange 1.0.1
+846 silly addNameRange number 2 { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: true }
+847 silly addNameRange versions [ 'wrappy', [ '1.0.0', '1.0.1' ] ]
+848 verbose addNamed wrappy@1.0.1
+849 silly addNamed semver.valid 1.0.1
+850 silly addNamed semver.validRange 1.0.1
+851 silly cache afterAdd wrappy@1.0.1
+852 verbose afterAdd /Users/luisfmsouza/.npm/wrappy/1.0.1/package/package.json not in flight; writing
+853 silly cache afterAdd wrappy@1.0.1
+854 verbose afterAdd /Users/luisfmsouza/.npm/wrappy/1.0.1/package/package.json already in flight; not writing
+855 verbose afterAdd /Users/luisfmsouza/.npm/wrappy/1.0.1/package/package.json written
+856 silly install resolved [ { name: 'wrappy',
+856 silly install resolved     version: '1.0.1',
+856 silly install resolved     description: 'Callback wrapping utility',
+856 silly install resolved     main: 'wrappy.js',
+856 silly install resolved     directories: { test: 'test' },
+856 silly install resolved     dependencies: {},
+856 silly install resolved     devDependencies: { tap: '^0.4.12' },
+856 silly install resolved     scripts: { test: 'tap test/*.js' },
+856 silly install resolved     repository: { type: 'git', url: 'https://github.com/npm/wrappy' },
+856 silly install resolved     author:
+856 silly install resolved      { name: 'Isaac Z. Schlueter',
+856 silly install resolved        email: 'i@izs.me',
+856 silly install resolved        url: 'http://blog.izs.me/' },
+856 silly install resolved     license: 'ISC',
+856 silly install resolved     bugs: { url: 'https://github.com/npm/wrappy/issues' },
+856 silly install resolved     homepage: 'https://github.com/npm/wrappy',
+856 silly install resolved     gitHead: '006a8cbac6b99988315834c207896eed71fd069a',
+856 silly install resolved     _id: 'wrappy@1.0.1',
+856 silly install resolved     _shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+856 silly install resolved     _from: 'wrappy@>=1.0.0 <2.0.0',
+856 silly install resolved     _npmVersion: '2.0.0',
+856 silly install resolved     _nodeVersion: '0.10.31',
+856 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+856 silly install resolved     maintainers: [ [Object] ],
+856 silly install resolved     dist:
+856 silly install resolved      { shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+856 silly install resolved        tarball: 'http://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz' },
+856 silly install resolved     _resolved: 'https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz',
+856 silly install resolved     readme: 'ERROR: No README data found!' } ]
+857 info install wrappy@1.0.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+858 info installOne wrappy@1.0.1
+859 verbose installOne of wrappy to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once not in flight; installing
+860 silly install resolved [ { name: 'wrappy',
+860 silly install resolved     version: '1.0.1',
+860 silly install resolved     description: 'Callback wrapping utility',
+860 silly install resolved     main: 'wrappy.js',
+860 silly install resolved     directories: { test: 'test' },
+860 silly install resolved     dependencies: {},
+860 silly install resolved     devDependencies: { tap: '^0.4.12' },
+860 silly install resolved     scripts: { test: 'tap test/*.js' },
+860 silly install resolved     repository: { type: 'git', url: 'https://github.com/npm/wrappy' },
+860 silly install resolved     author:
+860 silly install resolved      { name: 'Isaac Z. Schlueter',
+860 silly install resolved        email: 'i@izs.me',
+860 silly install resolved        url: 'http://blog.izs.me/' },
+860 silly install resolved     license: 'ISC',
+860 silly install resolved     bugs: { url: 'https://github.com/npm/wrappy/issues' },
+860 silly install resolved     homepage: 'https://github.com/npm/wrappy',
+860 silly install resolved     gitHead: '006a8cbac6b99988315834c207896eed71fd069a',
+860 silly install resolved     _id: 'wrappy@1.0.1',
+860 silly install resolved     _shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+860 silly install resolved     _from: 'wrappy@>=1.0.0 <2.0.0',
+860 silly install resolved     _npmVersion: '2.0.0',
+860 silly install resolved     _nodeVersion: '0.10.31',
+860 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+860 silly install resolved     maintainers: [ [Object] ],
+860 silly install resolved     dist:
+860 silly install resolved      { shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+860 silly install resolved        tarball: 'http://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz' },
+860 silly install resolved     _resolved: 'https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz',
+860 silly install resolved     readme: 'ERROR: No README data found!' } ]
+861 info install wrappy@1.0.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+862 info installOne wrappy@1.0.1
+863 verbose installOne of wrappy to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight not in flight; installing
+864 verbose lock using /Users/luisfmsouza/.npm/_locks/wrappy-fe74ea445bf2d4cc.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+865 verbose lock using /Users/luisfmsouza/.npm/_locks/wrappy-8d85a429ffbb566a.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+866 silly install write writing wrappy 1.0.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+867 silly cache addNamed cb wrappy@1.0.1
+868 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+869 silly install write writing wrappy 1.0.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+870 silly cache addNamed cb wrappy@1.0.1
+871 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+872 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+873 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+874 verbose tar unpack /Users/luisfmsouza/.npm/wrappy/1.0.1/package.tgz
+875 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+876 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+877 verbose tar unpack /Users/luisfmsouza/.npm/wrappy/1.0.1/package.tgz
+878 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+879 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+880 silly gunzTarPerm modes [ '755', '644' ]
+881 silly gunzTarPerm modes [ '755', '644' ]
+882 silly gunzTarPerm extractEntry package.json
+883 silly gunzTarPerm extractEntry package.json
+884 silly gunzTarPerm extractEntry README.md
+885 silly gunzTarPerm extractEntry LICENSE
+886 silly gunzTarPerm extractEntry README.md
+887 silly gunzTarPerm extractEntry LICENSE
+888 silly gunzTarPerm extractEntry wrappy.js
+889 silly gunzTarPerm extractEntry test/basic.js
+890 silly gunzTarPerm extractEntry wrappy.js
+891 silly gunzTarPerm extractEntry test/basic.js
+892 info preinstall wrappy@1.0.1
+893 info preinstall wrappy@1.0.1
+894 silly install resolved []
+895 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+896 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+897 verbose linkStuff [ false,
+897 verbose linkStuff   false,
+897 verbose linkStuff   false,
+897 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules' ]
+898 info linkStuff wrappy@1.0.1
+899 verbose linkBins wrappy@1.0.1
+900 verbose linkMans wrappy@1.0.1
+901 verbose rebuildBundles wrappy@1.0.1
+902 silly install resolved []
+903 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+904 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+905 verbose linkStuff [ false,
+905 verbose linkStuff   false,
+905 verbose linkStuff   false,
+905 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules' ]
+906 info linkStuff wrappy@1.0.1
+907 verbose linkBins wrappy@1.0.1
+908 verbose linkMans wrappy@1.0.1
+909 verbose rebuildBundles wrappy@1.0.1
+910 info install wrappy@1.0.1
+911 info install wrappy@1.0.1
+912 info postinstall wrappy@1.0.1
+913 info postinstall wrappy@1.0.1
+914 verbose unlock done using /Users/luisfmsouza/.npm/_locks/wrappy-fe74ea445bf2d4cc.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once/node_modules/wrappy
+915 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+916 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+917 verbose linkStuff [ false,
+917 verbose linkStuff   false,
+917 verbose linkStuff   false,
+917 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules' ]
+918 info linkStuff once@1.3.2
+919 verbose linkBins once@1.3.2
+920 verbose linkMans once@1.3.2
+921 verbose rebuildBundles once@1.3.2
+922 verbose unlock done using /Users/luisfmsouza/.npm/_locks/wrappy-8d85a429ffbb566a.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight/node_modules/wrappy
+923 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+924 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+925 verbose linkStuff [ false,
+925 verbose linkStuff   false,
+925 verbose linkStuff   false,
+925 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules' ]
+926 info linkStuff inflight@1.0.4
+927 verbose linkBins inflight@1.0.4
+928 verbose linkMans inflight@1.0.4
+929 verbose rebuildBundles inflight@1.0.4
+930 verbose rebuildBundles [ 'wrappy' ]
+931 info install once@1.3.2
+932 verbose rebuildBundles [ 'wrappy' ]
+933 info install inflight@1.0.4
+934 info postinstall once@1.3.2
+935 info postinstall inflight@1.0.4
+936 verbose unlock done using /Users/luisfmsouza/.npm/_locks/once-61ae0d8682b7e668.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/once
+937 verbose unlock done using /Users/luisfmsouza/.npm/_locks/inflight-642351a827bc1d48.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/inflight
+938 http 304 https://registry.npmjs.org/concat-map
+939 silly get cb [ 304,
+939 silly get   { date: 'Tue, 02 Jun 2015 00:37:53 GMT',
+939 silly get     via: '1.1 varnish',
+939 silly get     'cache-control': 'max-age=60',
+939 silly get     etag: '"2U454Y0TO6HIGLHDYCQETYTN8"',
+939 silly get     age: '20',
+939 silly get     connection: 'keep-alive',
+939 silly get     'x-served-by': 'cache-jfk1022-JFK',
+939 silly get     'x-cache': 'HIT',
+939 silly get     'x-cache-hits': '2',
+939 silly get     'x-timer': 'S1433205473.920385,VS0,VE0',
+939 silly get     vary: 'Accept' } ]
+940 verbose etag https://registry.npmjs.org/concat-map from cache
+941 verbose get saving concat-map to /Users/luisfmsouza/.npm/registry.npmjs.org/concat-map/.cache.json
+942 silly cache afterAdd concat-map@0.0.1
+943 verbose afterAdd /Users/luisfmsouza/.npm/concat-map/0.0.1/package/package.json not in flight; writing
+944 silly cache afterAdd concat-map@0.0.1
+945 verbose afterAdd /Users/luisfmsouza/.npm/concat-map/0.0.1/package/package.json already in flight; not writing
+946 verbose afterAdd /Users/luisfmsouza/.npm/concat-map/0.0.1/package/package.json written
+947 http 304 https://registry.npmjs.org/balanced-match
+948 silly get cb [ 304,
+948 silly get   { date: 'Tue, 02 Jun 2015 00:37:54 GMT',
+948 silly get     via: '1.1 varnish',
+948 silly get     'cache-control': 'max-age=60',
+948 silly get     etag: '"2H6AO94YXV8VUX762CZ8KGSIJ"',
+948 silly get     age: '10',
+948 silly get     connection: 'keep-alive',
+948 silly get     'x-served-by': 'cache-jfk1027-JFK',
+948 silly get     'x-cache': 'HIT',
+948 silly get     'x-cache-hits': '1',
+948 silly get     'x-timer': 'S1433205474.085552,VS0,VE0',
+948 silly get     vary: 'Accept' } ]
+949 verbose etag https://registry.npmjs.org/balanced-match from cache
+950 verbose get saving balanced-match to /Users/luisfmsouza/.npm/registry.npmjs.org/balanced-match/.cache.json
+951 silly addNameRange number 2 { name: 'balanced-match',
+951 silly addNameRange   range: '>=0.2.0 <0.3.0',
+951 silly addNameRange   hasData: true }
+952 silly addNameRange versions [ 'balanced-match', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0' ] ]
+953 verbose addNamed balanced-match@0.2.0
+954 silly addNamed semver.valid 0.2.0
+955 silly addNamed semver.validRange 0.2.0
+956 silly addNameRange number 2 { name: 'balanced-match',
+956 silly addNameRange   range: '>=0.2.0 <0.3.0',
+956 silly addNameRange   hasData: true }
+957 silly addNameRange versions [ 'balanced-match', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0' ] ]
+958 verbose addNamed balanced-match@0.2.0
+959 silly addNamed semver.valid 0.2.0
+960 silly addNamed semver.validRange 0.2.0
+961 silly cache afterAdd balanced-match@0.2.0
+962 verbose afterAdd /Users/luisfmsouza/.npm/balanced-match/0.2.0/package/package.json not in flight; writing
+963 silly cache afterAdd balanced-match@0.2.0
+964 verbose afterAdd /Users/luisfmsouza/.npm/balanced-match/0.2.0/package/package.json already in flight; not writing
+965 verbose afterAdd /Users/luisfmsouza/.npm/balanced-match/0.2.0/package/package.json written
+966 silly install resolved [ { name: 'concat-map',
+966 silly install resolved     description: 'concatenative mapdashery',
+966 silly install resolved     version: '0.0.1',
+966 silly install resolved     repository:
+966 silly install resolved      { type: 'git',
+966 silly install resolved        url: 'git://github.com/substack/node-concat-map.git' },
+966 silly install resolved     main: 'index.js',
+966 silly install resolved     keywords: [ 'concat', 'concatMap', 'map', 'functional', 'higher-order' ],
+966 silly install resolved     directories: { example: 'example', test: 'test' },
+966 silly install resolved     scripts: { test: 'tape test/*.js' },
+966 silly install resolved     devDependencies: { tape: '~2.4.0' },
+966 silly install resolved     license: 'MIT',
+966 silly install resolved     author:
+966 silly install resolved      { name: 'James Halliday',
+966 silly install resolved        email: 'mail@substack.net',
+966 silly install resolved        url: 'http://substack.net' },
+966 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+966 silly install resolved     bugs: { url: 'https://github.com/substack/node-concat-map/issues' },
+966 silly install resolved     homepage: 'https://github.com/substack/node-concat-map',
+966 silly install resolved     _id: 'concat-map@0.0.1',
+966 silly install resolved     dist:
+966 silly install resolved      { shasum: 'd8a96bd77fd68df7793a73036a3ba0d5405d477b',
+966 silly install resolved        tarball: 'http://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz' },
+966 silly install resolved     _from: 'concat-map@0.0.1',
+966 silly install resolved     _npmVersion: '1.3.21',
+966 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+966 silly install resolved     maintainers: [ [Object] ],
+966 silly install resolved     _shasum: 'd8a96bd77fd68df7793a73036a3ba0d5405d477b',
+966 silly install resolved     _resolved: 'https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz',
+966 silly install resolved     readme: 'ERROR: No README data found!' },
+966 silly install resolved   { name: 'balanced-match',
+966 silly install resolved     description: 'Match balanced character pairs, like "{" and "}"',
+966 silly install resolved     version: '0.2.0',
+966 silly install resolved     repository:
+966 silly install resolved      { type: 'git',
+966 silly install resolved        url: 'git://github.com/juliangruber/balanced-match.git' },
+966 silly install resolved     homepage: 'https://github.com/juliangruber/balanced-match',
+966 silly install resolved     main: 'index.js',
+966 silly install resolved     scripts: { test: 'make test' },
+966 silly install resolved     dependencies: {},
+966 silly install resolved     devDependencies: { tape: '~1.1.1' },
+966 silly install resolved     keywords: [ 'match', 'regexp', 'test', 'balanced', 'parse' ],
+966 silly install resolved     author:
+966 silly install resolved      { name: 'Julian Gruber',
+966 silly install resolved        email: 'mail@juliangruber.com',
+966 silly install resolved        url: 'http://juliangruber.com' },
+966 silly install resolved     license: 'MIT',
+966 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+966 silly install resolved     gitHead: 'ba40ed78e7114a4a67c51da768a100184dead39c',
+966 silly install resolved     bugs: { url: 'https://github.com/juliangruber/balanced-match/issues' },
+966 silly install resolved     _id: 'balanced-match@0.2.0',
+966 silly install resolved     _shasum: '38f6730c03aab6d5edbb52bd934885e756d71674',
+966 silly install resolved     _from: 'balanced-match@>=0.2.0 <0.3.0',
+966 silly install resolved     _npmVersion: '2.1.8',
+966 silly install resolved     _nodeVersion: '0.10.32',
+966 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+966 silly install resolved     maintainers: [ [Object] ],
+966 silly install resolved     dist:
+966 silly install resolved      { shasum: '38f6730c03aab6d5edbb52bd934885e756d71674',
+966 silly install resolved        tarball: 'http://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz' },
+966 silly install resolved     directories: {},
+966 silly install resolved     _resolved: 'https://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz',
+966 silly install resolved     readme: 'ERROR: No README data found!' } ]
+967 info install concat-map@0.0.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+968 info install balanced-match@0.2.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+969 info installOne concat-map@0.0.1
+970 verbose installOne of concat-map to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion not in flight; installing
+971 info installOne balanced-match@0.2.0
+972 verbose installOne of balanced-match to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion not in flight; installing
+973 silly install resolved [ { name: 'concat-map',
+973 silly install resolved     description: 'concatenative mapdashery',
+973 silly install resolved     version: '0.0.1',
+973 silly install resolved     repository:
+973 silly install resolved      { type: 'git',
+973 silly install resolved        url: 'git://github.com/substack/node-concat-map.git' },
+973 silly install resolved     main: 'index.js',
+973 silly install resolved     keywords: [ 'concat', 'concatMap', 'map', 'functional', 'higher-order' ],
+973 silly install resolved     directories: { example: 'example', test: 'test' },
+973 silly install resolved     scripts: { test: 'tape test/*.js' },
+973 silly install resolved     devDependencies: { tape: '~2.4.0' },
+973 silly install resolved     license: 'MIT',
+973 silly install resolved     author:
+973 silly install resolved      { name: 'James Halliday',
+973 silly install resolved        email: 'mail@substack.net',
+973 silly install resolved        url: 'http://substack.net' },
+973 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+973 silly install resolved     bugs: { url: 'https://github.com/substack/node-concat-map/issues' },
+973 silly install resolved     homepage: 'https://github.com/substack/node-concat-map',
+973 silly install resolved     _id: 'concat-map@0.0.1',
+973 silly install resolved     dist:
+973 silly install resolved      { shasum: 'd8a96bd77fd68df7793a73036a3ba0d5405d477b',
+973 silly install resolved        tarball: 'http://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz' },
+973 silly install resolved     _from: 'concat-map@0.0.1',
+973 silly install resolved     _npmVersion: '1.3.21',
+973 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+973 silly install resolved     maintainers: [ [Object] ],
+973 silly install resolved     _shasum: 'd8a96bd77fd68df7793a73036a3ba0d5405d477b',
+973 silly install resolved     _resolved: 'https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz',
+973 silly install resolved     readme: 'ERROR: No README data found!' },
+973 silly install resolved   { name: 'balanced-match',
+973 silly install resolved     description: 'Match balanced character pairs, like "{" and "}"',
+973 silly install resolved     version: '0.2.0',
+973 silly install resolved     repository:
+973 silly install resolved      { type: 'git',
+973 silly install resolved        url: 'git://github.com/juliangruber/balanced-match.git' },
+973 silly install resolved     homepage: 'https://github.com/juliangruber/balanced-match',
+973 silly install resolved     main: 'index.js',
+973 silly install resolved     scripts: { test: 'make test' },
+973 silly install resolved     dependencies: {},
+973 silly install resolved     devDependencies: { tape: '~1.1.1' },
+973 silly install resolved     keywords: [ 'match', 'regexp', 'test', 'balanced', 'parse' ],
+973 silly install resolved     author:
+973 silly install resolved      { name: 'Julian Gruber',
+973 silly install resolved        email: 'mail@juliangruber.com',
+973 silly install resolved        url: 'http://juliangruber.com' },
+973 silly install resolved     license: 'MIT',
+973 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+973 silly install resolved     gitHead: 'ba40ed78e7114a4a67c51da768a100184dead39c',
+973 silly install resolved     bugs: { url: 'https://github.com/juliangruber/balanced-match/issues' },
+973 silly install resolved     _id: 'balanced-match@0.2.0',
+973 silly install resolved     _shasum: '38f6730c03aab6d5edbb52bd934885e756d71674',
+973 silly install resolved     _from: 'balanced-match@>=0.2.0 <0.3.0',
+973 silly install resolved     _npmVersion: '2.1.8',
+973 silly install resolved     _nodeVersion: '0.10.32',
+973 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+973 silly install resolved     maintainers: [ [Object] ],
+973 silly install resolved     dist:
+973 silly install resolved      { shasum: '38f6730c03aab6d5edbb52bd934885e756d71674',
+973 silly install resolved        tarball: 'http://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz' },
+973 silly install resolved     directories: {},
+973 silly install resolved     _resolved: 'https://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz',
+973 silly install resolved     readme: 'ERROR: No README data found!' } ]
+974 info install concat-map@0.0.1 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+975 info install balanced-match@0.2.0 into /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+976 info installOne concat-map@0.0.1
+977 verbose installOne of concat-map to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion not in flight; installing
+978 info installOne balanced-match@0.2.0
+979 verbose installOne of balanced-match to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion not in flight; installing
+980 verbose lock using /Users/luisfmsouza/.npm/_locks/concat-map-90cd4637568c558b.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+981 verbose lock using /Users/luisfmsouza/.npm/_locks/concat-map-a33d86b898437318.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+982 silly install write writing concat-map 0.0.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+983 silly cache addNamed cb concat-map@0.0.1
+984 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+985 verbose lock using /Users/luisfmsouza/.npm/_locks/balanced-match-189b08124cc0048c.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+986 silly install write writing concat-map 0.0.1 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+987 silly cache addNamed cb concat-map@0.0.1
+988 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+989 verbose lock using /Users/luisfmsouza/.npm/_locks/balanced-match-cc8b96371ca8f2ce.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+990 silly install write writing balanced-match 0.2.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+991 silly cache addNamed cb balanced-match@0.2.0
+992 verbose unbuild node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+993 silly install write writing balanced-match 0.2.0 to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+994 silly cache addNamed cb balanced-match@0.2.0
+995 verbose unbuild node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+996 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+997 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+998 verbose tar unpack /Users/luisfmsouza/.npm/concat-map/0.0.1/package.tgz
+999 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1000 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1001 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1002 verbose tar unpack /Users/luisfmsouza/.npm/concat-map/0.0.1/package.tgz
+1003 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1004 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1005 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1006 silly gunzTarPerm modes [ '755', '644' ]
+1007 verbose tar unpack /Users/luisfmsouza/.npm/balanced-match/0.2.0/package.tgz
+1008 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1009 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1010 silly gunzTarPerm modes [ '755', '644' ]
+1011 verbose tar unpack /Users/luisfmsouza/.npm/balanced-match/0.2.0/package.tgz
+1012 verbose tar unpacking to /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1013 verbose gentlyRm vacuuming /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1014 silly gunzTarPerm modes [ '755', '644' ]
+1015 silly gunzTarPerm modes [ '755', '644' ]
+1016 silly gunzTarPerm extractEntry package.json
+1017 silly gunzTarPerm extractEntry package.json
+1018 silly gunzTarPerm extractEntry package.json
+1019 silly gunzTarPerm extractEntry package.json
+1020 silly gunzTarPerm extractEntry LICENSE
+1021 silly gunzTarPerm extractEntry index.js
+1022 silly gunzTarPerm extractEntry LICENSE
+1023 silly gunzTarPerm extractEntry index.js
+1024 silly gunzTarPerm extractEntry .npmignore
+1025 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+1026 silly gunzTarPerm extractEntry README.md
+1027 silly gunzTarPerm extractEntry .npmignore
+1028 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+1029 silly gunzTarPerm extractEntry README.md
+1030 silly gunzTarPerm extractEntry .travis.yml
+1031 silly gunzTarPerm extractEntry README.markdown
+1032 silly gunzTarPerm extractEntry .travis.yml
+1033 silly gunzTarPerm extractEntry README.markdown
+1034 silly gunzTarPerm extractEntry example.js
+1035 silly gunzTarPerm modified mode [ 'example.js', 436, 420 ]
+1036 silly gunzTarPerm extractEntry index.js
+1037 silly gunzTarPerm extractEntry example.js
+1038 silly gunzTarPerm modified mode [ 'example.js', 436, 420 ]
+1039 silly gunzTarPerm extractEntry index.js
+1040 silly gunzTarPerm extractEntry example/map.js
+1041 silly gunzTarPerm extractEntry test/map.js
+1042 silly gunzTarPerm extractEntry example/map.js
+1043 silly gunzTarPerm extractEntry test/map.js
+1044 silly gunzTarPerm extractEntry .travis.yml
+1045 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+1046 silly gunzTarPerm extractEntry Makefile
+1047 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+1048 silly gunzTarPerm extractEntry .travis.yml
+1049 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+1050 silly gunzTarPerm extractEntry Makefile
+1051 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+1052 silly gunzTarPerm extractEntry test/balanced.js
+1053 silly gunzTarPerm extractEntry test/balanced.js
+1054 info preinstall concat-map@0.0.1
+1055 info preinstall concat-map@0.0.1
+1056 silly install resolved []
+1057 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1058 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1059 verbose linkStuff [ false,
+1059 verbose linkStuff   false,
+1059 verbose linkStuff   false,
+1059 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules' ]
+1060 info linkStuff concat-map@0.0.1
+1061 verbose linkBins concat-map@0.0.1
+1062 verbose linkMans concat-map@0.0.1
+1063 verbose rebuildBundles concat-map@0.0.1
+1064 silly install resolved []
+1065 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1066 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1067 verbose linkStuff [ false,
+1067 verbose linkStuff   false,
+1067 verbose linkStuff   false,
+1067 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules' ]
+1068 info linkStuff concat-map@0.0.1
+1069 verbose linkBins concat-map@0.0.1
+1070 verbose linkMans concat-map@0.0.1
+1071 verbose rebuildBundles concat-map@0.0.1
+1072 info install concat-map@0.0.1
+1073 info install concat-map@0.0.1
+1074 info postinstall concat-map@0.0.1
+1075 info postinstall concat-map@0.0.1
+1076 verbose unlock done using /Users/luisfmsouza/.npm/_locks/concat-map-a33d86b898437318.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1077 info preinstall balanced-match@0.2.0
+1078 info preinstall balanced-match@0.2.0
+1079 verbose unlock done using /Users/luisfmsouza/.npm/_locks/concat-map-90cd4637568c558b.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1080 silly install resolved []
+1081 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1082 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1083 verbose linkStuff [ false,
+1083 verbose linkStuff   false,
+1083 verbose linkStuff   false,
+1083 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules' ]
+1084 info linkStuff balanced-match@0.2.0
+1085 verbose linkBins balanced-match@0.2.0
+1086 verbose linkMans balanced-match@0.2.0
+1087 verbose rebuildBundles balanced-match@0.2.0
+1088 silly install resolved []
+1089 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1090 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1091 verbose linkStuff [ false,
+1091 verbose linkStuff   false,
+1091 verbose linkStuff   false,
+1091 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules' ]
+1092 info linkStuff balanced-match@0.2.0
+1093 verbose linkBins balanced-match@0.2.0
+1094 verbose linkMans balanced-match@0.2.0
+1095 verbose rebuildBundles balanced-match@0.2.0
+1096 info install balanced-match@0.2.0
+1097 info install balanced-match@0.2.0
+1098 info postinstall balanced-match@0.2.0
+1099 info postinstall balanced-match@0.2.0
+1100 verbose unlock done using /Users/luisfmsouza/.npm/_locks/balanced-match-189b08124cc0048c.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1101 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+1102 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+1103 verbose linkStuff [ false,
+1103 verbose linkStuff   false,
+1103 verbose linkStuff   false,
+1103 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules' ]
+1104 info linkStuff brace-expansion@1.1.0
+1105 verbose linkBins brace-expansion@1.1.0
+1106 verbose linkMans brace-expansion@1.1.0
+1107 verbose rebuildBundles brace-expansion@1.1.0
+1108 verbose unlock done using /Users/luisfmsouza/.npm/_locks/balanced-match-cc8b96371ca8f2ce.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1109 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1110 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1111 verbose linkStuff [ false,
+1111 verbose linkStuff   false,
+1111 verbose linkStuff   false,
+1111 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules' ]
+1112 info linkStuff brace-expansion@1.1.0
+1113 verbose linkBins brace-expansion@1.1.0
+1114 verbose linkMans brace-expansion@1.1.0
+1115 verbose rebuildBundles brace-expansion@1.1.0
+1116 verbose rebuildBundles [ 'balanced-match', 'concat-map' ]
+1117 info install brace-expansion@1.1.0
+1118 verbose rebuildBundles [ 'balanced-match', 'concat-map' ]
+1119 info install brace-expansion@1.1.0
+1120 info postinstall brace-expansion@1.1.0
+1121 info postinstall brace-expansion@1.1.0
+1122 verbose unlock done using /Users/luisfmsouza/.npm/_locks/brace-expansion-d49a9189c516b8d6.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch/node_modules/brace-expansion
+1123 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+1124 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+1125 verbose linkStuff [ false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules' ]
+1126 info linkStuff minimatch@2.0.8
+1127 verbose linkBins minimatch@2.0.8
+1128 verbose linkMans minimatch@2.0.8
+1129 verbose rebuildBundles minimatch@2.0.8
+1130 verbose unlock done using /Users/luisfmsouza/.npm/_locks/brace-expansion-bcb9fec245043ca2.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1131 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+1132 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+1133 verbose linkStuff [ false,
+1133 verbose linkStuff   false,
+1133 verbose linkStuff   false,
+1133 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules' ]
+1134 info linkStuff minimatch@2.0.8
+1135 verbose linkBins minimatch@2.0.8
+1136 verbose linkMans minimatch@2.0.8
+1137 verbose rebuildBundles minimatch@2.0.8
+1138 verbose rebuildBundles [ 'brace-expansion' ]
+1139 info install minimatch@2.0.8
+1140 verbose rebuildBundles [ 'brace-expansion' ]
+1141 info install minimatch@2.0.8
+1142 info postinstall minimatch@2.0.8
+1143 info postinstall minimatch@2.0.8
+1144 verbose unlock done using /Users/luisfmsouza/.npm/_locks/minimatch-6629559b99b7b027.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch/node_modules/minimatch
+1145 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+1146 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+1147 verbose linkStuff [ false,
+1147 verbose linkStuff   false,
+1147 verbose linkStuff   false,
+1147 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules' ]
+1148 info linkStuff multimatch@2.0.0
+1149 verbose linkBins multimatch@2.0.0
+1150 verbose linkMans multimatch@2.0.0
+1151 verbose rebuildBundles multimatch@2.0.0
+1152 verbose unlock done using /Users/luisfmsouza/.npm/_locks/minimatch-6e256882d66e62a5.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/node_modules/minimatch
+1153 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+1154 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+1155 verbose linkStuff [ false,
+1155 verbose linkStuff   false,
+1155 verbose linkStuff   false,
+1155 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules' ]
+1156 info linkStuff glob@4.3.5
+1157 verbose linkBins glob@4.3.5
+1158 verbose linkMans glob@4.3.5
+1159 verbose rebuildBundles glob@4.3.5
+1160 verbose rebuildBundles [ 'array-differ', 'array-union', 'minimatch' ]
+1161 info install multimatch@2.0.0
+1162 verbose rebuildBundles [ 'inflight', 'inherits', 'minimatch', 'once' ]
+1163 info install glob@4.3.5
+1164 info postinstall multimatch@2.0.0
+1165 info postinstall glob@4.3.5
+1166 verbose unlock done using /Users/luisfmsouza/.npm/_locks/multimatch-e71952cf127f917e.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/multimatch
+1167 verbose unlock done using /Users/luisfmsouza/.npm/_locks/glob-5a30796e0d25a79f.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob
+1168 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+1169 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+1170 verbose linkStuff [ false,
+1170 verbose linkStuff   false,
+1170 verbose linkStuff   false,
+1170 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules' ]
+1171 info linkStuff findup-sync@0.2.1
+1172 verbose linkBins findup-sync@0.2.1
+1173 verbose linkMans findup-sync@0.2.1
+1174 verbose rebuildBundles findup-sync@0.2.1
+1175 verbose rebuildBundles [ 'glob' ]
+1176 info install findup-sync@0.2.1
+1177 info postinstall findup-sync@0.2.1
+1178 verbose unlock done using /Users/luisfmsouza/.npm/_locks/findup-sync-78e9b04a822f061f.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks/node_modules/findup-sync
+1179 verbose about to build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+1180 info build /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+1181 verbose linkStuff [ false,
+1181 verbose linkStuff   false,
+1181 verbose linkStuff   false,
+1181 verbose linkStuff   '/Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules' ]
+1182 info linkStuff load-grunt-tasks@3.2.0
+1183 verbose linkBins load-grunt-tasks@3.2.0
+1184 verbose linkMans load-grunt-tasks@3.2.0
+1185 verbose rebuildBundles load-grunt-tasks@3.2.0
+1186 verbose rebuildBundles [ 'findup-sync', 'multimatch' ]
+1187 info install load-grunt-tasks@3.2.0
+1188 info postinstall load-grunt-tasks@3.2.0
+1189 verbose unlock done using /Users/luisfmsouza/.npm/_locks/load-grunt-tasks-a06d78ba6215f3f6.lock for /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega/node_modules/load-grunt-tasks
+1190 verbose stack Error: The package grunt does not satisfy its siblings' peerDependencies requirements!
+1190 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:103:32
+1190 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:225:5
+1190 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+1190 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1190 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1190 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1190 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1190 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1190 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1190 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1191 verbose cwd /Users/luisfmsouza/Documents/web/development/dojo-grunt-drupal/omega
+1192 error Darwin 13.4.0
+1193 error argv "node" "/usr/local/bin/npm" "install" "load-grunt-tasks"
+1194 error node v0.12.0
+1195 error npm  v2.5.1
+1196 error code EPEERINVALID
+1197 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+1197 error peerinvalid Peer grunt-sprite-glue@0.2.0 wants grunt@~0.4.5
+1197 error peerinvalid Peer jit-grunt@0.9.1 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-contrib-clean@0.6.0 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-shell@0.3.1 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-contrib-compass@0.2.0 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-contrib-uglify@0.2.7 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-contrib-watch@0.4.4 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-csscomb@3.0.1 wants grunt@^0.4.5
+1197 error peerinvalid Peer grunt-contrib-jshint@0.1.1 wants grunt@~0.4.0
+1197 error peerinvalid Peer grunt-contrib-imagemin@0.9.4 wants grunt@>=0.4.0
+1198 verbose exit [ 1, true ]

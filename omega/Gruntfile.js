@@ -5,6 +5,13 @@ module.exports = function(grunt) {
   // Load time plugin
   require('time-grunt')(grunt);
 
+  // -- Fist example
+  // require('load-grunt-tasks')(grunt);
+
+  // -- Second example
+  // Load all taks faster
+  // require('jit-grunt')(grunt);
+
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -134,14 +141,17 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-strip-css-comments');
-  grunt.loadNpmTasks('grunt-scss-lint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  //grunt.loadNpmTasks('grunt-sprite-glue');
+  // grunt.loadNpmTasks('grunt-contrib-compass');
+  // grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-clean');
+  // grunt.loadNpmTasks('grunt-strip-css-comments');
+  // grunt.loadNpmTasks('grunt-scss-lint');
+  // grunt.loadNpmTasks('grunt-contrib-uglify');
+  // grunt.loadNpmTasks('grunt-contrib-jshint');
+  // grunt.loadNpmTasks('grunt-sprite-glue');
+  // grunt.loadNpmTasks('grunt-csscomb');
+  // grunt.loadNpmTasks('grunt-sass');
+  // grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Watch css and lint
   grunt.registerTask('watch_css', ['watch:css_lint']);
