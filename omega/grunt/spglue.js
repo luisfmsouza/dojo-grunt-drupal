@@ -1,14 +1,13 @@
 module.exports = {
-    spglue: {
-      dev: {
-        options: {
-            project: true,
-            scss: true,
-            img: 'images/generated'
-        },
-        files: {
-            'sass/abstractions': 'images/sprites'
-        }
-      }
+
+  options: {
+    img: '<%= dest.images %>', // Path to put the image
+    scss: true
+  },
+  dev: {
+    files: {
+      // Path to put the scss file : path of source images
+      '<%= source.sass %>': '<%= source.images %>'
     }
+  }
 }

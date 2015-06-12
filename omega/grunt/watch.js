@@ -14,5 +14,9 @@ module.exports = {
   build: {
     files: ['<%= path.source.js %>/**/*.js', '<%= path.source.sass %>/**/*.scss'],
     tasks: ['scsslint', 'compass:dev', 'uglify:dev', 'jshint']
+  },
+  sprite: {
+    files: ['<%= source.images %>/*.*'],
+    tasks: ['spglue:dev']
   }
 }

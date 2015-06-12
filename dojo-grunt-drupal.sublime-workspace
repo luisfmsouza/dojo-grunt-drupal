@@ -471,6 +471,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "omega/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 3611,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -656,19 +664,25 @@
 	"expanded_folders":
 	[
 		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/layouts",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/modules",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/sass"
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega"
 	],
 	"file_history":
 	[
 		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/package.json",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/janssenmd.info",
 		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/Gruntfile.js",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/scss-lint-report.xml",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/sass/omega.admin.scss",
-		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/omega.admin.css",
+		"/C/wamp/www/captivate/index.html",
 		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/.scss-lint.yml",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/Gruntfile.js",
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/package.json",
+		"/C/Users/lfelipe/AppData/Local/Temp/Rar$DR01.696/omega/omega/Gruntfile.js",
+		"/C/Users/lfelipe/Downloads/Gruntfile.js",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/js_source/jquery.resizeend.js",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/js/generated.min.js",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/js_source/jquery.matchmedia.js",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/sass/omega.admin.scss",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/scss-lint-report.xml",
+		"/C/Users/lfelipe/Documents/GitHub/dojo-grunt-drupal/omega/css/omega.admin.css",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_mobile.scss",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/components/_modal.scss",
 		"/C/wamp/www/janssenmd/sites/all/modules/extlink/extlink.js",
@@ -699,7 +713,6 @@
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/breakpoints/devices/_mobile.scss.bak",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/pages/_remember-me.scss",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/bootstrap/_forms.scss",
-		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/janssenmd.info",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/sass/bootstrap/_breadcrumbs.scss",
 		"/C/wamp/www/iscroll/demos/event-passthrough/index.html",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/jmd.tooltip.js",
@@ -722,9 +735,7 @@
 		"/C/wamp/www/janssenmd/sites/default/settings.php",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/system/ta_home_list_products.tpl.php",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-ae-pqc.tpl.php",
-		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/Gruntfile.js",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/.npmrc",
-		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/_resources/package.json",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-exitlink.tpl.php",
 		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/templates/modals/modal-reference.tpl.php",
 		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
@@ -784,13 +795,7 @@
 		"/D/Sites/SuperGadgetRelease3/trunk/java/ccv-super-gadget-parent/ccv-super-gadget-web/content/web_resources/general/js/MainApplication.js",
 		"/D/Sites/NATAL_CovermixNatal2013/trunk/java/ccv-covermix-natal2013-parent/ccv-covermix-natal2013-web/src/main/web_resources/general/js/App.js",
 		"/D/Sites/NATAL_CovermixNatal2013/trunk/java/ccv-covermix-natal2013-parent/ccv-covermix-natal2013-web/src/main/web_resources/general/js/AppFacebook.js",
-		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/modal.js",
-		"/C/Users/lfelipe/AppData/Roaming/npm/node_modules/jscs/bin/jscs",
-		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/lfelipe/Downloads/_resources/tasks/_task_browserSync.js",
-		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/User/JSLint.sublime-settings",
-		"/C/Users/lfelipe/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings"
+		"/C/wamp/www/janssenmd/sites/all/themes/janssenmd/script/modal.js"
 	],
 	"find":
 	{
@@ -936,6 +941,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"uglify",
+			"js_source",
+			"uglif",
+			"scsslint",
 			"body.hack",
 			"overlay-product-prescribing-information",
 			"JMD",
@@ -1059,11 +1068,7 @@
 			".product_disclaimer",
 			"#hcp_mobile_subtitle",
 			"product_disclaimer",
-			"#hcp_mobile_subtitle",
-			".product_disclaimer",
-			"@include font-size($font-size-small-mob);",
-			"product_disclaimer",
-			"hcp_mobile_subtitle"
+			"#hcp_mobile_subtitle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1199,8 +1204,43 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "omega/Gruntfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								868,
+								337
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material.tmTheme",
+							"rulers":
+							[
+								3.9,
+								4.2
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1405,12 +1445,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\wamp\\www\\janssenmd\\sites\\all\\themes\\janssenmd\\_resources\\janssenmd.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
