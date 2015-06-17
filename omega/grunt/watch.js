@@ -17,6 +17,6 @@ module.exports = {
   },
   sprite: {
     files: ['<%= source.images %>/*.*'],
-    tasks: ['spglue:dev']
+    tasks: ['spglue:icons', 'spglue:flags']
   }
 }

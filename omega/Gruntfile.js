@@ -8,8 +8,8 @@ module.exports = function(grunt) {
   require('load-grunt-config')(grunt, {
     config: {
       'source': {
-        'images': 'images/sprites',
-        'sass': 'sass'
+        'images': 'images/',
+        'sass': 'sass/'
       },
       'dest': {
         'images': 'images/generated/'
